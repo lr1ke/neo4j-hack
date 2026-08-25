@@ -49,6 +49,14 @@ Two real Cypher bugs turned up when I ran these against live data instead of jus
 
 Both only surfaced by executing against real data and eyeballing results against a known-answer synthetic dataset — reviewing the Cypher on paper wouldn't have caught either.
 
+## 4.5. Aura MCP — live querying (stretch, if time)
+
+Verified working end-to-end: `get-schema` + `read-cypher` round-trip correctly against the live instance, and freehand Cypher (not copied from `reflection-queries.mjs`) independently reproduces the same findings — e.g. Nova's best task type is `research` (100%), Atlas is the top `deployment` performer (92.3%).
+
+**Gotcha to know before typing anything live on stage:** `Agent.id` is lowercase (`'nova'`), `Agent.name` is capitalized (`'Nova'`). Filtering on `{name: 'nova'}` returns **zero rows silently** — no error, just looks broken. Always match on `id`, not `name`, in any ad hoc query. (Our own scripts are already safe — they all use `id`.)
+
+`list-gds-procedures` didn't surface in one ToolSearch pass — not needed for this demo, but don't rely on it live without checking first.
+
 ## 5. What's next (10s)
 
 Aura MCP to make querying live/interactive instead of a canned script; wiring this in as the real replacement for `reflect.ts` in the production app once it's had more runway than a hackathon afternoon.
