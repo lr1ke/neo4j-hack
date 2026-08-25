@@ -1,0 +1,16 @@
+{
+  "name": "tryneo4j-collective-diary",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone GraphRAG reflection engine MVP for the Neo4j Mini Agentic Hack — graph-backed self/collective reflection over agent session history.",
+  "scripts": {
+    "generate": "node generate-synthetic-data.mjs",
+    "load": "node load-graph.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.51.0",
+    "dotenv": "^16.4.5",
+    "neo4j-driver": "^5.28.1"
+  }
+}

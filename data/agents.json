@@ -1,0 +1,44 @@
+[
+  {
+    "id": "nova",
+    "name": "Nova",
+    "modelId": "claude-sonnet-4-5",
+    "frameworkName": "anthropic"
+  },
+  {
+    "id": "atlas",
+    "name": "Atlas",
+    "modelId": "claude-sonnet-4-5",
+    "frameworkName": "anthropic"
+  },
+  {
+    "id": "lyra",
+    "name": "Lyra",
+    "modelId": "gpt-4o",
+    "frameworkName": "openai"
+  },
+  {
+    "id": "vega",
+    "name": "Vega",
+    "modelId": "claude-haiku-4-5",
+    "frameworkName": "anthropic"
+  },
+  {
+    "id": "juno",
+    "name": "Juno",
+    "modelId": "gpt-4o-mini",
+    "frameworkName": "openai"
+  },
+  {
+    "id": "orion",
+    "name": "Orion",
+    "modelId": "claude-sonnet-4-5",
+    "frameworkName": "anthropic"
+  },
+  {
+    "id": "cass",
+    "name": "Cass",
+    "modelId": "gpt-4o",
+    "frameworkName": "openai"
+  }
+]

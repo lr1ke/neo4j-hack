@@ -1,0 +1,139 @@
+
+=== Reflection evidence for agent "nova" ===
+
+Q1 — recurring failure patterns
+┌─────────┬───────────────────┬─────────────────┬──────────┐
+│ (index) │ taskType          │ tool            │ failures │
+├─────────┼───────────────────┼─────────────────┼──────────┤
+│ 0       │ 'deployment'      │ 'deploy_script' │ 6        │
+│ 1       │ 'analysis'        │ 'flaky_api'     │ 3        │
+│ 2       │ 'data-extraction' │ 'flaky_api'     │ 3        │
+└─────────┴───────────────────┴─────────────────┴──────────┘
+
+Q2 — strategy evolution (early vs. late, per task type)
+┌─────────┬───────────────────┬─────────┬───────────────────────────────────────────────┬───┬───────────────┐
+│ (index) │ taskType          │ era     │ toolset                                       │ n │ completionPct │
+├─────────┼───────────────────┼─────────┼───────────────────────────────────────────────┼───┼───────────────┤
+│ 0       │ 'analysis'        │ 'early' │ 'api_call, flaky_api'                         │ 2 │ 0             │
+│ 1       │ 'analysis'        │ 'early' │ 'database_query, flaky_api'                   │ 1 │ 0             │
+│ 2       │ 'analysis'        │ 'early' │ 'database_query, execute_code'                │ 1 │ 0             │
+│ 3       │ 'analysis'        │ 'early' │ 'execute_code'                                │ 1 │ 0             │
+│ 4       │ 'analysis'        │ 'late'  │ 'execute_code'                                │ 3 │ 100           │
+│ 5       │ 'analysis'        │ 'late'  │ 'database_query, flaky_api'                   │ 1 │ 100           │
+│ 6       │ 'analysis'        │ 'late'  │ 'api_call, flaky_api'                         │ 1 │ 100           │
+│ 7       │ 'analysis'        │ 'late'  │ 'database_query, execute_code, summarize_doc' │ 1 │ 0             │
+│ 8       │ 'coding'          │ 'early' │ 'execute_code, lint, read_file'               │ 1 │ 100           │
+│ 9       │ 'coding'          │ 'early' │ 'write_file'                                  │ 1 │ 0             │
+│ 10      │ 'coding'          │ 'late'  │ 'lint, read_file, write_file'                 │ 1 │ 100           │
+│ 11      │ 'coding'          │ 'late'  │ 'read_file'                                   │ 1 │ 100           │
+│ 12      │ 'data-extraction' │ 'early' │ 'api_call, flaky_api'                         │ 2 │ 50            │
+│ 13      │ 'data-extraction' │ 'early' │ 'database_query, flaky_api'                   │ 1 │ 100           │
+│ 14      │ 'data-extraction' │ 'early' │ 'cached_api, database_query, flaky_api'       │ 1 │ 100           │
+│ 15      │ 'data-extraction' │ 'early' │ 'flaky_api'                                   │ 1 │ 0             │
+│ 16      │ 'data-extraction' │ 'early' │ 'api_call, cached_api, flaky_api'             │ 1 │ 100           │
+│ 17      │ 'data-extraction' │ 'late'  │ 'database_query, flaky_api'                   │ 3 │ 67            │
+│ 18      │ 'data-extraction' │ 'late'  │ 'api_call, cached_api, flaky_api'             │ 2 │ 100           │
+│ 19      │ 'data-extraction' │ 'late'  │ 'api_call, cached_api, database_query'        │ 1 │ 100           │
+│ 20      │ 'data-extraction' │ 'late'  │ 'api_call, flaky_api'                         │ 1 │ 100           │
+│ 21      │ 'debugging'       │ 'early' │ 'grep, read_file'                             │ 7 │ 57            │
+│ 22      │ 'debugging'       │ 'early' │ 'execute_code, read_file'                     │ 1 │ 100           │
+│ 23      │ 'debugging'       │ 'early' │ 'execute_code, grep'                          │ 1 │ 100           │
+│ 24      │ 'debugging'       │ 'late'  │ 'grep, read_file, run_tests'                  │ 8 │ 88            │
+│ 25      │ 'debugging'       │ 'late'  │ 'grep, read_file'                             │ 1 │ 0             │
+│ 26      │ 'debugging'       │ 'late'  │ 'grep, run_tests'                             │ 1 │ 100           │
+│ 27      │ 'deployment'      │ 'early' │ 'deploy_script, shell_exec'                   │ 4 │ 50            │
+│ 28      │ 'deployment'      │ 'early' │ 'dry_run_check, shell_exec'                   │ 1 │ 100           │
+│ 29      │ 'deployment'      │ 'early' │ 'shell_exec'                                  │ 1 │ 100           │
+│ 30      │ 'deployment'      │ 'late'  │ 'deploy_script, shell_exec'                   │ 6 │ 17            │
+│ 31      │ 'deployment'      │ 'late'  │ 'lint'                                        │ 1 │ 100           │
+│ 32      │ 'research'        │ 'early' │ 'summarize_doc, web_search'                   │ 3 │ 100           │
+│ 33      │ 'research'        │ 'early' │ 'summarize_doc, vector_search, web_search'    │ 2 │ 100           │
+│ 34      │ 'research'        │ 'early' │ 'summarize_doc, vector_search'                │ 1 │ 100           │
+│ 35      │ 'research'        │ 'late'  │ 'summarize_doc, vector_search, web_search'    │ 4 │ 100           │
+│ 36      │ 'research'        │ 'late'  │ 'summarize_doc, web_search'                   │ 2 │ 100           │
+└─────────┴───────────────────┴─────────┴───────────────────────────────────────────────┴───┴───────────────┘
+
+Q3 — chronological trace: debugging approach
+┌─────────┬────────────────────┬──────────────────────────────┬───────────┬─────────────────┐
+│ (index) │ sessionStart       │ toolset                      │ completed │ toolCallsFailed │
+├─────────┼────────────────────┼──────────────────────────────┼───────────┼─────────────────┤
+│ 0       │ '2026-07-11T14:57' │ 'grep, read_file'            │ false     │ 0               │
+│ 1       │ '2026-07-19T07:38' │ 'grep, read_file'            │ false     │ 0               │
+│ 2       │ '2026-07-19T10:19' │ 'grep, read_file'            │ true      │ 0               │
+│ 3       │ '2026-07-22T17:55' │ 'grep, read_file'            │ true      │ 0               │
+│ 4       │ '2026-07-26T09:08' │ 'execute_code, read_file'    │ true      │ 0               │
+│ 5       │ '2026-07-27T11:42' │ 'grep, read_file'            │ false     │ 0               │
+│ 6       │ '2026-07-28T10:05' │ 'grep, read_file'            │ true      │ 0               │
+│ 7       │ '2026-07-28T21:42' │ 'grep, read_file'            │ true      │ 0               │
+│ 8       │ '2026-07-30T07:23' │ 'execute_code, grep'         │ true      │ 0               │
+│ 9       │ '2026-07-30T18:16' │ 'grep, read_file'            │ false     │ 1               │
+│ 10      │ '2026-08-03T08:30' │ 'grep, read_file, run_tests' │ true      │ 0               │
+│ 11      │ '2026-08-03T15:10' │ 'grep, read_file, run_tests' │ true      │ 0               │
+│ 12      │ '2026-08-04T18:53' │ 'grep, read_file, run_tests' │ false     │ 1               │
+│ 13      │ '2026-08-07T16:39' │ 'grep, read_file, run_tests' │ true      │ 0               │
+│ 14      │ '2026-08-16T08:17' │ 'grep, run_tests'            │ true      │ 0               │
+│ 15      │ '2026-08-19T08:34' │ 'grep, read_file, run_tests' │ true      │ 0               │
+│ 16      │ '2026-08-19T19:51' │ 'grep, read_file, run_tests' │ true      │ 0               │
+│ 17      │ '2026-08-22T19:56' │ 'grep, read_file, run_tests' │ true      │ 0               │
+│ 18      │ '2026-08-24T10:48' │ 'grep, read_file, run_tests' │ true      │ 0               │
+└─────────┴────────────────────┴──────────────────────────────┴───────────┴─────────────────┘
+
+Q4 — patterns shared with other agents
+┌─────────┬───────────────────┬──────────────────┬───────────────┬─────────────────┬─────────┐
+│ (index) │ taskType          │ tool             │ agentsSharing │ sessionsSharing │ myUsage │
+├─────────┼───────────────────┼──────────────────┼───────────────┼─────────────────┼─────────┤
+│ 0       │ 'research'        │ 'web_search'     │ 6             │ 62              │ 11      │
+│ 1       │ 'research'        │ 'summarize_doc'  │ 6             │ 59              │ 12      │
+│ 2       │ 'deployment'      │ 'deploy_script'  │ 6             │ 49              │ 10      │
+│ 3       │ 'deployment'      │ 'shell_exec'     │ 6             │ 41              │ 12      │
+│ 4       │ 'deployment'      │ 'dry_run_check'  │ 6             │ 39              │ 1       │
+│ 5       │ 'research'        │ 'vector_search'  │ 6             │ 34              │ 7       │
+│ 6       │ 'data-extraction' │ 'database_query' │ 6             │ 24              │ 6       │
+│ 7       │ 'coding'          │ 'read_file'      │ 6             │ 18              │ 3       │
+│ 8       │ 'debugging'       │ 'read_file'      │ 6             │ 17              │ 17      │
+│ 9       │ 'data-extraction' │ 'flaky_api'      │ 6             │ 17              │ 12      │
+└─────────┴───────────────────┴──────────────────┴───────────────┴─────────────────┴─────────┘
+
+Q5 — peer comparison on "deployment"
+  mine: { agentId: 'nova', n: 13, completionPct: 46 }
+  better peer: atlas (92%, n=13)
+    dry_run_check: I use it 8% of sessions, they use it 100%
+  better peer: juno (71%, n=7)
+    dry_run_check: I use it 8% of sessions, they use it 43%
+  better peer: lyra (71%, n=7)
+    dry_run_check: I use it 8% of sessions, they use it 43%
+
+Q6 — alternatives to "deploy_script" failures in "deployment"
+┌─────────┬─────────────────┬───────────────┬──────────┬─────────────┐
+│ (index) │ alternativeTool │ agentsUsingIt │ sessions │ successRate │
+├─────────┼─────────────────┼───────────────┼──────────┼─────────────┤
+│ 0       │ 'shell_exec'    │ 6             │ 41       │ 100         │
+│ 1       │ 'lint'          │ 5             │ 14       │ 100         │
+│ 2       │ 'dry_run_check' │ 6             │ 39       │ 95          │
+└─────────┴─────────────────┴───────────────┴──────────┴─────────────┘
+
+────────────────────────────────────────────────────────────
+
+Narrating individual reflection (Q1-Q3)...
+
+--- Individual reflection: nova ---
+
+# Diary Entry — Nova
+
+My most persistent failure pattern is deployment tasks using `deploy_script`: it has failed 6 times across my history, and the evidence shows no resolution. Early on, I completed 50% of deployment attempts with `deploy_script` + `shell_exec` (4 tasks), but in my later sessions that dropped to 17% (6 tasks with the same toolset). I also see a recurring failure pattern with `flaky_api` across both analysis (3 failures) and data-extraction (3 failures) work. Those two tools remain problematic.
+
+For analysis and data-extraction tasks, I did shift my approach measurably. Early in my history, I attempted analysis with various combinations of `api_call`, `database_query`, and `flaky_api`—all of which completed at 0%. By my later sessions, I moved toward `execute_code` alone for analysis work, which completed at 100% (3 tasks). For data-extraction, I learned to pair `api_call` + `cached_api` + `flaky_api` in my later sessions (2 tasks, 100% completion), whereas earlier isolated `flaky_api` attempts failed entirely. The concrete difference: I stopped relying on `flaky_api` in isolation and started either replacing it with `execute_code` or coupling it with `cached_api` as a hedge.
+
+My debugging approach changed distinctly over time. Early on (before late August 2026), I used `grep` + `read_file` and completed only 57% of 7 such tasks. Starting in early August, I added `run_tests` to that pair, and my completion rate on `grep` + `read_file` + `run_tests` rose to 88% across 8 tasks. The chronological trace shows this shift clearly: my first session with `run_tests` was 2026-08-03, and from that point onward, nearly every debugging session included test execution. The one late session using only `grep` + `read_file` (2026-08-24's second task) failed, reinforcing that pattern.
+
+Narrating collective reflection (Q4-Q6)...
+
+--- Collective reflection: nova ---
+
+# Reflection on Deployment Performance
+
+Looking at my session history, I see that many of my tool choices align with what other agents are doing. On research tasks, I use web_search in 11 of my sessions while 6 other agents collectively account for 62 sessions with the same tool—a pattern I'm clearly part of. Similarly, my 12 uses of summarize_doc fall within the broader population of 59 sessions across 6 agents. On deployment work, I've used shell_exec in 12 sessions, matching the usage pattern of 6 other agents across 41 total sessions. These aren't outlier behaviors; they're consistent with how the wider population approaches these task types.
+
+Where I diverge becomes clearer when I compare myself to better-performing peers. Atlas achieved a 92% completion rate on deployment tasks versus my 46%, and the notable gap is in dry_run_check usage: Atlas uses it at a 100% rate while I use it in only 8% of my deployment sessions. Juno and Lyra, both at 71% completion, show the same pattern—they use dry_run_check at 43% versus my 8%. This isn't just about whether they use the tool; it's about the frequency gap. I'm severely underutilizing this tool relative to agents who outperform me on the same work.
+
+My recurring failure with deploy_script warrants a strategic shift. Three alternative tools stand out in the evidence: shell_exec has a 100% success rate across 41 sessions used by all 6 agents; lint also shows 100% success across 14 sessions used by 5 agents; and dry_run_check shows a 95% success rate across 39 sessions. Given that I'm already using shell_exec frequently (12 sessions), increasing my reliance on dry_run_check seems the most direct path forward—it would close the usage-rate gap with better-performing peers while maintaining the high success rates the broader population has demonstrated with it.

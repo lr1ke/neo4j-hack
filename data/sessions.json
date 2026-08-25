@@ -1,0 +1,6466 @@
+[
+  {
+    "sessionId": "3343b48c-0e4b-460d-8f2f-912cf399ae49",
+    "agentId": "nova",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-11T10:05:00.000Z",
+    "sessionEnd": "2026-07-11T10:29:00.000Z",
+    "tokenUsageInput": 4458,
+    "tokenUsageOutput": 1338,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "1c69dc81-d695-4101-a7fa-15140c71d692",
+    "agentId": "cass",
+    "taskType": "coding",
+    "sessionStart": "2026-07-11T14:02:00.000Z",
+    "sessionEnd": "2026-07-11T14:24:00.000Z",
+    "tokenUsageInput": 7466,
+    "tokenUsageOutput": 2489,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "write_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Implement pagination for the entries endpoint",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "d5727864-0b43-4e39-8f0d-529dba4d732e",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-11T14:57:00.000Z",
+    "sessionEnd": "2026-07-11T15:26:00.000Z",
+    "tokenUsageInput": 3994,
+    "tokenUsageOutput": 1438,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate intermittent 500s on /api/diary/entry",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "39966d5e-6e5f-456a-b2c4-6bd5f1140ac4",
+    "agentId": "lyra",
+    "taskType": "analysis",
+    "sessionStart": "2026-07-11T20:10:00.000Z",
+    "sessionEnd": "2026-07-11T20:20:00.000Z",
+    "tokenUsageInput": 4283,
+    "tokenUsageOutput": 1428,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Summarize this week's workload distribution",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "8656469f-bb2c-44ad-bac1-03cb164af383",
+    "agentId": "atlas",
+    "taskType": "research",
+    "sessionStart": "2026-07-11T20:31:00.000Z",
+    "sessionEnd": "2026-07-11T20:40:00.000Z",
+    "tokenUsageInput": 5193,
+    "tokenUsageOutput": 2077,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "7d2dd742-2dda-40c4-9c2d-bee2147d2e54",
+    "agentId": "atlas",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-11T20:38:00.000Z",
+    "sessionEnd": "2026-07-11T20:55:00.000Z",
+    "tokenUsageInput": 3866,
+    "tokenUsageOutput": 1392,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate intermittent 500s on /api/diary/entry",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "e78b138f-0eb5-410c-aa37-49b020dcf305",
+    "agentId": "orion",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-12T07:19:00.000Z",
+    "sessionEnd": "2026-07-12T07:52:00.000Z",
+    "tokenUsageInput": 5479,
+    "tokenUsageOutput": 1644,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "flaky_api"
+    ],
+    "failedToolNames": [
+      "flaky_api"
+    ],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "70bafe65-e31b-4f67-a38e-6174c6324050",
+    "agentId": "nova",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-12T10:59:00.000Z",
+    "sessionEnd": "2026-07-12T11:11:00.000Z",
+    "tokenUsageInput": 5088,
+    "tokenUsageOutput": 1653,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "dry_run_check",
+      "shell_exec"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "b291beee-8393-4de0-b7d7-584d8220e0a6",
+    "agentId": "orion",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-12T11:21:00.000Z",
+    "sessionEnd": "2026-07-12T11:46:00.000Z",
+    "tokenUsageInput": 4085,
+    "tokenUsageOutput": 1225,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "api_call",
+      "flaky_api"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "cf4a7394-e678-4488-b3f2-55c914cdbcc6",
+    "agentId": "lyra",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-12T16:31:00.000Z",
+    "sessionEnd": "2026-07-12T16:45:00.000Z",
+    "tokenUsageInput": 2429,
+    "tokenUsageOutput": 729,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "542723ab-00a2-4a0c-8b29-a836ff5a48ff",
+    "agentId": "lyra",
+    "taskType": "analysis",
+    "sessionStart": "2026-07-12T17:18:00.000Z",
+    "sessionEnd": "2026-07-12T17:38:00.000Z",
+    "tokenUsageInput": 3368,
+    "tokenUsageOutput": 1123,
+    "toolCallsTotal": 8,
+    "toolCallsSucceeded": 8,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code",
+      "database_query",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Compare completion rates across task types",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "597f9e7b-af7a-4efc-83ed-1b0a0e0d615e",
+    "agentId": "atlas",
+    "taskType": "analysis",
+    "sessionStart": "2026-07-12T17:51:00.000Z",
+    "sessionEnd": "2026-07-12T18:21:00.000Z",
+    "tokenUsageInput": 2735,
+    "tokenUsageOutput": 912,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Review token spend per session",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "e3b695a9-5df4-483f-934b-eb9f515ab453",
+    "agentId": "orion",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-12T18:01:00.000Z",
+    "sessionEnd": "2026-07-12T18:05:00.000Z",
+    "tokenUsageInput": 4774,
+    "tokenUsageOutput": 1718,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "read_file",
+      "run_tests"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Trace why token counts double-count on retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "313571ae-48b1-4798-a627-93e74a88a4d6",
+    "agentId": "juno",
+    "taskType": "research",
+    "sessionStart": "2026-07-12T18:03:00.000Z",
+    "sessionEnd": "2026-07-12T18:28:00.000Z",
+    "tokenUsageInput": 4466,
+    "tokenUsageOutput": 1786,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "ee182953-3d04-4d92-9739-c2d7337a4297",
+    "agentId": "atlas",
+    "taskType": "research",
+    "sessionStart": "2026-07-12T20:51:00.000Z",
+    "sessionEnd": "2026-07-12T21:19:00.000Z",
+    "tokenUsageInput": 7428,
+    "tokenUsageOutput": 2971,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "e3629380-e30a-41d8-bf22-bfe08e7185ba",
+    "agentId": "atlas",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-12T21:05:00.000Z",
+    "sessionEnd": "2026-07-12T21:21:00.000Z",
+    "tokenUsageInput": 2585,
+    "tokenUsageOutput": 775,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "38c1a9ce-24b3-4aad-a00a-d4df590acace",
+    "agentId": "orion",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-13T08:36:00.000Z",
+    "sessionEnd": "2026-07-13T08:44:00.000Z",
+    "tokenUsageInput": 3035,
+    "tokenUsageOutput": 986,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "dry_run_check",
+      "lint"
+    ],
+    "failedToolNames": [
+      "dry_run_check"
+    ],
+    "taskDescription": "Deploy the reflect endpoint to staging",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "64a8b49b-b9b1-4599-9d86-6d90a44b7cf2",
+    "agentId": "atlas",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-13T10:58:00.000Z",
+    "sessionEnd": "2026-07-13T11:04:00.000Z",
+    "tokenUsageInput": 4478,
+    "tokenUsageOutput": 1455,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "469d2bd4-cfdc-4da4-b0f8-8a4a2c7c9528",
+    "agentId": "atlas",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-13T11:18:00.000Z",
+    "sessionEnd": "2026-07-13T11:51:00.000Z",
+    "tokenUsageInput": 3729,
+    "tokenUsageOutput": 1119,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "4e325baa-5d96-43e2-860a-5d561a2957b1",
+    "agentId": "nova",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-13T12:12:00.000Z",
+    "sessionEnd": "2026-07-13T12:40:00.000Z",
+    "tokenUsageInput": 3230,
+    "tokenUsageOutput": 969,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "55636aeb-1d02-4f17-b783-dc00e71ba32b",
+    "agentId": "orion",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-13T12:14:00.000Z",
+    "sessionEnd": "2026-07-13T12:34:00.000Z",
+    "tokenUsageInput": 3810,
+    "tokenUsageOutput": 1238,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Promote the Aura MCP config to prod",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "ea084d11-bc8a-45b8-83fa-4a4f219d7b37",
+    "agentId": "cass",
+    "taskType": "research",
+    "sessionStart": "2026-07-13T15:25:00.000Z",
+    "sessionEnd": "2026-07-13T15:48:00.000Z",
+    "tokenUsageInput": 6916,
+    "tokenUsageOutput": 2766,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "687ead8e-40e2-4b97-af29-b6c356333535",
+    "agentId": "atlas",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-14T07:10:00.000Z",
+    "sessionEnd": "2026-07-14T07:22:00.000Z",
+    "tokenUsageInput": 2947,
+    "tokenUsageOutput": 884,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "07723781-4091-44df-8317-93669c07997d",
+    "agentId": "cass",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-14T10:34:00.000Z",
+    "sessionEnd": "2026-07-14T10:39:00.000Z",
+    "tokenUsageInput": 2567,
+    "tokenUsageOutput": 834,
+    "toolCallsTotal": 1,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Deploy the reflect endpoint to staging",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "d4e0a540-78f8-4aec-85ee-d8b99928d326",
+    "agentId": "cass",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-14T13:26:00.000Z",
+    "sessionEnd": "2026-07-14T13:32:00.000Z",
+    "tokenUsageInput": 5369,
+    "tokenUsageOutput": 1745,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [
+      "deploy_script"
+    ],
+    "taskDescription": "Promote the Aura MCP config to prod",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "10d96042-ca03-41b1-9d45-1ff82cddb5ba",
+    "agentId": "juno",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-14T14:01:00.000Z",
+    "sessionEnd": "2026-07-14T14:18:00.000Z",
+    "tokenUsageInput": 3395,
+    "tokenUsageOutput": 1103,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "be931840-25af-4b17-9893-f8183ad8cae3",
+    "agentId": "orion",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-14T15:19:00.000Z",
+    "sessionEnd": "2026-07-14T15:34:00.000Z",
+    "tokenUsageInput": 5447,
+    "tokenUsageOutput": 1770,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 2,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [
+      "deploy_script"
+    ],
+    "taskDescription": "Deploy the reflect endpoint to staging",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "01fd080f-7c5f-4851-b3a2-5511274c7120",
+    "agentId": "juno",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-15T18:23:00.000Z",
+    "sessionEnd": "2026-07-15T18:55:00.000Z",
+    "tokenUsageInput": 4799,
+    "tokenUsageOutput": 1728,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "read_file",
+      "execute_code",
+      "grep"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Trace why token counts double-count on retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "4473c6da-9952-496c-b713-87454e511f90",
+    "agentId": "juno",
+    "taskType": "research",
+    "sessionStart": "2026-07-15T20:40:00.000Z",
+    "sessionEnd": "2026-07-15T20:57:00.000Z",
+    "tokenUsageInput": 5368,
+    "tokenUsageOutput": 2147,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "d44ba9b0-c684-40ec-8515-7c944d0f1854",
+    "agentId": "juno",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-15T21:08:00.000Z",
+    "sessionEnd": "2026-07-15T21:23:00.000Z",
+    "tokenUsageInput": 3757,
+    "tokenUsageOutput": 1127,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "database_query",
+      "cached_api",
+      "flaky_api"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "20f6fcc1-99ec-4311-ba7d-196dac499ca7",
+    "agentId": "atlas",
+    "taskType": "coding",
+    "sessionStart": "2026-07-15T21:39:00.000Z",
+    "sessionEnd": "2026-07-15T21:58:00.000Z",
+    "tokenUsageInput": 6192,
+    "tokenUsageOutput": 2064,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Add retry logic to the tool executor",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "ae0dd34b-117c-49f1-81db-901ce37f0e7d",
+    "agentId": "cass",
+    "taskType": "analysis",
+    "sessionStart": "2026-07-16T07:11:00.000Z",
+    "sessionEnd": "2026-07-16T07:35:00.000Z",
+    "tokenUsageInput": 3265,
+    "tokenUsageOutput": 1088,
+    "toolCallsTotal": 8,
+    "toolCallsSucceeded": 8,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code",
+      "summarize_doc",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Compare completion rates across task types",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "30e68fe1-43cd-4de6-80b7-c1cb38c35ecd",
+    "agentId": "vega",
+    "taskType": "analysis",
+    "sessionStart": "2026-07-16T07:53:00.000Z",
+    "sessionEnd": "2026-07-16T08:26:00.000Z",
+    "tokenUsageInput": 3730,
+    "tokenUsageOutput": 1243,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Compare completion rates across task types",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "5150dc92-4711-4623-872c-6abeceedc54c",
+    "agentId": "nova",
+    "taskType": "research",
+    "sessionStart": "2026-07-16T07:58:00.000Z",
+    "sessionEnd": "2026-07-16T08:27:00.000Z",
+    "tokenUsageInput": 3546,
+    "tokenUsageOutput": 1418,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "6aed9cfb-2744-419b-a709-d4c04e1f3d3a",
+    "agentId": "nova",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-16T08:14:00.000Z",
+    "sessionEnd": "2026-07-16T08:37:00.000Z",
+    "tokenUsageInput": 4378,
+    "tokenUsageOutput": 1423,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "shell_exec"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "513f5fc8-1ccf-4722-9086-2e6b037a6be9",
+    "agentId": "lyra",
+    "taskType": "research",
+    "sessionStart": "2026-07-16T10:17:00.000Z",
+    "sessionEnd": "2026-07-16T10:40:00.000Z",
+    "tokenUsageInput": 7485,
+    "tokenUsageOutput": 2994,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "vector_search",
+      "summarize_doc",
+      "web_search"
+    ],
+    "failedToolNames": [
+      "web_search"
+    ],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "e730296b-625e-46c8-ad57-11bf566b1d88",
+    "agentId": "nova",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-16T11:24:00.000Z",
+    "sessionEnd": "2026-07-16T11:49:00.000Z",
+    "tokenUsageInput": 2607,
+    "tokenUsageOutput": 782,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "cached_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "fac5f9e2-49e9-4b3b-82b3-7728bea53a5d",
+    "agentId": "nova",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-16T11:36:00.000Z",
+    "sessionEnd": "2026-07-16T11:46:00.000Z",
+    "tokenUsageInput": 4056,
+    "tokenUsageOutput": 1318,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Deploy the reflect endpoint to staging",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "de580db2-de27-4b4e-9972-6e0e8800f256",
+    "agentId": "cass",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-16T13:43:00.000Z",
+    "sessionEnd": "2026-07-16T14:16:00.000Z",
+    "tokenUsageInput": 6107,
+    "tokenUsageOutput": 2199,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code",
+      "grep"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate intermittent 500s on /api/diary/entry",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "0f3b2666-f0cb-4478-875a-817c40bcad12",
+    "agentId": "vega",
+    "taskType": "research",
+    "sessionStart": "2026-07-16T16:08:00.000Z",
+    "sessionEnd": "2026-07-16T16:19:00.000Z",
+    "tokenUsageInput": 6692,
+    "tokenUsageOutput": 2677,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "535ae34d-8866-4982-8099-bd6b4f389cd1",
+    "agentId": "atlas",
+    "taskType": "analysis",
+    "sessionStart": "2026-07-16T18:51:00.000Z",
+    "sessionEnd": "2026-07-16T19:11:00.000Z",
+    "tokenUsageInput": 5595,
+    "tokenUsageOutput": 1865,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "api_call"
+    ],
+    "failedToolNames": [
+      "cached_api"
+    ],
+    "taskDescription": "Review token spend per session",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "ab7a9470-b714-40ff-bfa1-9153a83a4626",
+    "agentId": "cass",
+    "taskType": "research",
+    "sessionStart": "2026-07-17T08:41:00.000Z",
+    "sessionEnd": "2026-07-17T08:52:00.000Z",
+    "tokenUsageInput": 5555,
+    "tokenUsageOutput": 2222,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "acd17933-1bed-4b1b-bec5-a855e964a129",
+    "agentId": "nova",
+    "taskType": "coding",
+    "sessionStart": "2026-07-17T09:28:00.000Z",
+    "sessionEnd": "2026-07-17T09:42:00.000Z",
+    "tokenUsageInput": 6586,
+    "tokenUsageOutput": 2195,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "lint",
+      "execute_code",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Add retry logic to the tool executor",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "eab48137-2c86-476f-ad83-18f8c2ff6a9c",
+    "agentId": "juno",
+    "taskType": "research",
+    "sessionStart": "2026-07-17T18:16:00.000Z",
+    "sessionEnd": "2026-07-17T18:37:00.000Z",
+    "tokenUsageInput": 7185,
+    "tokenUsageOutput": 2874,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "ef609939-6fde-4101-9c2a-727afdf4050c",
+    "agentId": "lyra",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-18T07:03:00.000Z",
+    "sessionEnd": "2026-07-18T07:35:00.000Z",
+    "tokenUsageInput": 6886,
+    "tokenUsageOutput": 2479,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "execute_code"
+    ],
+    "failedToolNames": [
+      "execute_code"
+    ],
+    "taskDescription": "Trace why token counts double-count on retries",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "1948b4d2-ed53-4d1e-ada6-1b65995bd092",
+    "agentId": "atlas",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-18T07:16:00.000Z",
+    "sessionEnd": "2026-07-18T07:50:00.000Z",
+    "tokenUsageInput": 3258,
+    "tokenUsageOutput": 1059,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "dry_run_check",
+      "lint"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "f6ec569a-a872-45f4-8ec2-19aa1762a401",
+    "agentId": "lyra",
+    "taskType": "research",
+    "sessionStart": "2026-07-18T12:15:00.000Z",
+    "sessionEnd": "2026-07-18T12:23:00.000Z",
+    "tokenUsageInput": 3941,
+    "tokenUsageOutput": 1577,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "vector_search",
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "4b146392-e531-42cf-922e-1f5a8a8a31a7",
+    "agentId": "lyra",
+    "taskType": "research",
+    "sessionStart": "2026-07-18T14:52:00.000Z",
+    "sessionEnd": "2026-07-18T15:27:00.000Z",
+    "tokenUsageInput": 4959,
+    "tokenUsageOutput": 1984,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "4bf78a7b-816d-4f85-a82f-47d703585ec2",
+    "agentId": "vega",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-18T15:43:00.000Z",
+    "sessionEnd": "2026-07-18T15:59:00.000Z",
+    "tokenUsageInput": 5125,
+    "tokenUsageOutput": 1538,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "database_query",
+      "flaky_api"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract tool call metadata from raw traces",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "03000bae-b39d-44b4-af2e-d563678362bc",
+    "agentId": "juno",
+    "taskType": "research",
+    "sessionStart": "2026-07-18T17:11:00.000Z",
+    "sessionEnd": "2026-07-18T17:34:00.000Z",
+    "tokenUsageInput": 7664,
+    "tokenUsageOutput": 3066,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "3c089182-e54b-4b47-b030-3079eb410de3",
+    "agentId": "orion",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-18T18:19:00.000Z",
+    "sessionEnd": "2026-07-18T18:32:00.000Z",
+    "tokenUsageInput": 5032,
+    "tokenUsageOutput": 1635,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "d6333884-c902-48be-b9ad-58f255222802",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-19T07:38:00.000Z",
+    "sessionEnd": "2026-07-19T08:00:00.000Z",
+    "tokenUsageInput": 4687,
+    "tokenUsageOutput": 1687,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Trace why token counts double-count on retries",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "8c98c519-cac9-4c47-b32e-0c75ab0db625",
+    "agentId": "nova",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-19T07:58:00.000Z",
+    "sessionEnd": "2026-07-19T08:33:00.000Z",
+    "tokenUsageInput": 3298,
+    "tokenUsageOutput": 1072,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [
+      "deploy_script"
+    ],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "c1761d2a-0939-4406-a32a-c52bd9074ee7",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-19T10:19:00.000Z",
+    "sessionEnd": "2026-07-19T10:33:00.000Z",
+    "tokenUsageInput": 5353,
+    "tokenUsageOutput": 1927,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Trace why token counts double-count on retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "c836b7af-445e-42ec-80c5-4e31033fb583",
+    "agentId": "vega",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-19T11:28:00.000Z",
+    "sessionEnd": "2026-07-19T11:43:00.000Z",
+    "tokenUsageInput": 2492,
+    "tokenUsageOutput": 810,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "dry_run_check",
+      "lint",
+      "deploy_script"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "69c42467-627b-4a8f-907b-088ec4e1598d",
+    "agentId": "atlas",
+    "taskType": "research",
+    "sessionStart": "2026-07-19T13:43:00.000Z",
+    "sessionEnd": "2026-07-19T13:53:00.000Z",
+    "tokenUsageInput": 6030,
+    "tokenUsageOutput": 2412,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "0909e08a-1cbe-4ff3-9850-2d3d205c424b",
+    "agentId": "orion",
+    "taskType": "analysis",
+    "sessionStart": "2026-07-19T14:37:00.000Z",
+    "sessionEnd": "2026-07-19T14:51:00.000Z",
+    "tokenUsageInput": 3216,
+    "tokenUsageOutput": 1072,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 2,
+    "uniqueToolsUsed": [
+      "database_query"
+    ],
+    "failedToolNames": [
+      "database_query"
+    ],
+    "taskDescription": "Compare completion rates across task types",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "a8274fa5-5318-467c-80f8-9121e51c3386",
+    "agentId": "lyra",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-19T15:27:00.000Z",
+    "sessionEnd": "2026-07-19T15:33:00.000Z",
+    "tokenUsageInput": 5229,
+    "tokenUsageOutput": 1569,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "021eeb02-39d8-4263-9ca4-2f2697f1b449",
+    "agentId": "juno",
+    "taskType": "research",
+    "sessionStart": "2026-07-19T16:08:00.000Z",
+    "sessionEnd": "2026-07-19T16:42:00.000Z",
+    "tokenUsageInput": 5245,
+    "tokenUsageOutput": 2098,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Research alternatives to the current vector store",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "42ebb74a-b72f-4c5e-bc40-c15b9de91cd2",
+    "agentId": "vega",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-19T17:18:00.000Z",
+    "sessionEnd": "2026-07-19T17:48:00.000Z",
+    "tokenUsageInput": 3762,
+    "tokenUsageOutput": 1223,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [
+      "deploy_script"
+    ],
+    "taskDescription": "Deploy the reflect endpoint to staging",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "ba4e8546-3efa-4e0f-b094-da39c6702023",
+    "agentId": "atlas",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-19T20:17:00.000Z",
+    "sessionEnd": "2026-07-19T20:32:00.000Z",
+    "tokenUsageInput": 5093,
+    "tokenUsageOutput": 1655,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "lint",
+      "dry_run_check",
+      "deploy_script"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "1c9b7ddb-7440-48e0-a3bc-fe9de41dd574",
+    "agentId": "lyra",
+    "taskType": "coding",
+    "sessionStart": "2026-07-19T21:46:00.000Z",
+    "sessionEnd": "2026-07-19T22:02:00.000Z",
+    "tokenUsageInput": 6510,
+    "tokenUsageOutput": 2170,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code",
+      "write_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Refactor the aggregator into pure functions",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "8f66fe37-e01d-43a7-b689-8c0e35a96319",
+    "agentId": "lyra",
+    "taskType": "analysis",
+    "sessionStart": "2026-07-20T10:21:00.000Z",
+    "sessionEnd": "2026-07-20T10:43:00.000Z",
+    "tokenUsageInput": 5316,
+    "tokenUsageOutput": 1772,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "database_query",
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Compare completion rates across task types",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "f98bbf25-d8f4-4741-98fe-4e757793aa15",
+    "agentId": "vega",
+    "taskType": "research",
+    "sessionStart": "2026-07-20T10:35:00.000Z",
+    "sessionEnd": "2026-07-20T10:56:00.000Z",
+    "tokenUsageInput": 5046,
+    "tokenUsageOutput": 2018,
+    "toolCallsTotal": 9,
+    "toolCallsSucceeded": 8,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [
+      "vector_search"
+    ],
+    "taskDescription": "Research alternatives to the current vector store",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "a3c59a63-6ae4-49f1-a3fd-9ac44f35424c",
+    "agentId": "orion",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-20T12:55:00.000Z",
+    "sessionEnd": "2026-07-20T13:30:00.000Z",
+    "tokenUsageInput": 3634,
+    "tokenUsageOutput": 1090,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "8af7caf2-4c46-42dd-a8c5-0bc513f6472a",
+    "agentId": "vega",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-20T13:17:00.000Z",
+    "sessionEnd": "2026-07-20T13:21:00.000Z",
+    "tokenUsageInput": 5293,
+    "tokenUsageOutput": 1906,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "execute_code",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate intermittent 500s on /api/diary/entry",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "f2b72173-afa2-4367-a575-60d94d8630c3",
+    "agentId": "vega",
+    "taskType": "coding",
+    "sessionStart": "2026-07-20T15:30:00.000Z",
+    "sessionEnd": "2026-07-20T15:56:00.000Z",
+    "tokenUsageInput": 4372,
+    "tokenUsageOutput": 1457,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "write_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Implement pagination for the entries endpoint",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "023349c1-5dd3-471f-8f51-dbfbae8e15ac",
+    "agentId": "lyra",
+    "taskType": "research",
+    "sessionStart": "2026-07-20T17:07:00.000Z",
+    "sessionEnd": "2026-07-20T17:20:00.000Z",
+    "tokenUsageInput": 6565,
+    "tokenUsageOutput": 2626,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "debfb587-3d67-42b6-a8ef-7ffddf4dd54c",
+    "agentId": "orion",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-21T14:20:00.000Z",
+    "sessionEnd": "2026-07-21T14:32:00.000Z",
+    "tokenUsageInput": 4483,
+    "tokenUsageOutput": 1345,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "62499419-d887-4ccf-9072-92e92ea302a3",
+    "agentId": "orion",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-21T16:29:00.000Z",
+    "sessionEnd": "2026-07-21T16:41:00.000Z",
+    "tokenUsageInput": 3411,
+    "tokenUsageOutput": 1108,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "cd92a81c-7492-4b50-b195-7e585da03b9d",
+    "agentId": "nova",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-21T18:24:00.000Z",
+    "sessionEnd": "2026-07-21T18:29:00.000Z",
+    "tokenUsageInput": 2742,
+    "tokenUsageOutput": 891,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [
+      "deploy_script"
+    ],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "75cfedc0-dc8a-4ed0-ad4a-e5f5bc0d7796",
+    "agentId": "nova",
+    "taskType": "analysis",
+    "sessionStart": "2026-07-21T20:56:00.000Z",
+    "sessionEnd": "2026-07-21T21:03:00.000Z",
+    "tokenUsageInput": 2700,
+    "tokenUsageOutput": 900,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "database_query"
+    ],
+    "failedToolNames": [
+      "flaky_api"
+    ],
+    "taskDescription": "Identify which tools correlate with failures",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "cc4f68ba-b690-4a1a-b2a0-f69b66de6dd2",
+    "agentId": "lyra",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-21T21:22:00.000Z",
+    "sessionEnd": "2026-07-21T21:42:00.000Z",
+    "tokenUsageInput": 3157,
+    "tokenUsageOutput": 1137,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "run_tests",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Chase down a race condition in the upsert path",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "6a47cf78-4ee7-4cba-8775-7077d25c4c88",
+    "agentId": "juno",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-22T07:30:00.000Z",
+    "sessionEnd": "2026-07-22T07:37:00.000Z",
+    "tokenUsageInput": 2499,
+    "tokenUsageOutput": 812,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "27b247c2-abfe-48fb-aeef-00796c119c61",
+    "agentId": "vega",
+    "taskType": "research",
+    "sessionStart": "2026-07-22T13:12:00.000Z",
+    "sessionEnd": "2026-07-22T13:31:00.000Z",
+    "tokenUsageInput": 5147,
+    "tokenUsageOutput": 2059,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "e7d7963f-cb43-461d-89ec-21c3cbe99efb",
+    "agentId": "atlas",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-22T14:11:00.000Z",
+    "sessionEnd": "2026-07-22T14:34:00.000Z",
+    "tokenUsageInput": 2911,
+    "tokenUsageOutput": 873,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "1441db2a-efc9-4163-a7ec-2d770f7aaae2",
+    "agentId": "atlas",
+    "taskType": "coding",
+    "sessionStart": "2026-07-22T14:39:00.000Z",
+    "sessionEnd": "2026-07-22T15:03:00.000Z",
+    "tokenUsageInput": 7227,
+    "tokenUsageOutput": 2409,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "read_file",
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Implement pagination for the entries endpoint",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "cca8101c-ebb0-46ab-9397-08754ae875af",
+    "agentId": "nova",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-22T15:07:00.000Z",
+    "sessionEnd": "2026-07-22T15:35:00.000Z",
+    "tokenUsageInput": 3437,
+    "tokenUsageOutput": 1117,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Deploy the reflect endpoint to staging",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "21e7893b-0c4e-4e5b-b9b6-59eb35159f1d",
+    "agentId": "nova",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-22T15:37:00.000Z",
+    "sessionEnd": "2026-07-22T15:46:00.000Z",
+    "tokenUsageInput": 3602,
+    "tokenUsageOutput": 1170,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [
+      "deploy_script"
+    ],
+    "taskDescription": "Promote the Aura MCP config to prod",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "8796dd3c-8dda-4c64-97db-152578756003",
+    "agentId": "orion",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-22T17:21:00.000Z",
+    "sessionEnd": "2026-07-22T17:44:00.000Z",
+    "tokenUsageInput": 3731,
+    "tokenUsageOutput": 1343,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code",
+      "run_tests",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Trace why token counts double-count on retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "5a5ed722-4f62-4da6-936d-9c0bf27f0027",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-22T17:55:00.000Z",
+    "sessionEnd": "2026-07-22T18:30:00.000Z",
+    "tokenUsageInput": 6197,
+    "tokenUsageOutput": 2231,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate intermittent 500s on /api/diary/entry",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "1fd55c7b-3d26-4b25-94f5-7cb21f19cee3",
+    "agentId": "juno",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-22T19:40:00.000Z",
+    "sessionEnd": "2026-07-22T20:04:00.000Z",
+    "tokenUsageInput": 4777,
+    "tokenUsageOutput": 1553,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "9d1e4016-db39-4f10-af49-e837d07dc222",
+    "agentId": "orion",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-22T20:19:00.000Z",
+    "sessionEnd": "2026-07-22T20:32:00.000Z",
+    "tokenUsageInput": 3141,
+    "tokenUsageOutput": 942,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "d424a16d-f260-40ce-9888-da2c48725b80",
+    "agentId": "lyra",
+    "taskType": "coding",
+    "sessionStart": "2026-07-23T12:44:00.000Z",
+    "sessionEnd": "2026-07-23T12:58:00.000Z",
+    "tokenUsageInput": 7349,
+    "tokenUsageOutput": 2450,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Add retry logic to the tool executor",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "a338cb20-c5f7-46f6-8e41-005c00f71a16",
+    "agentId": "atlas",
+    "taskType": "analysis",
+    "sessionStart": "2026-07-23T13:49:00.000Z",
+    "sessionEnd": "2026-07-23T14:21:00.000Z",
+    "tokenUsageInput": 5243,
+    "tokenUsageOutput": 1748,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code",
+      "database_query",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Review token spend per session",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "6bb75f2c-f517-447f-82d9-7fbcb9209ea6",
+    "agentId": "vega",
+    "taskType": "research",
+    "sessionStart": "2026-07-23T14:40:00.000Z",
+    "sessionEnd": "2026-07-23T14:58:00.000Z",
+    "tokenUsageInput": 4924,
+    "tokenUsageOutput": 1970,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Research alternatives to the current vector store",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "4932ffcb-7858-49a9-a4be-a0a96c256003",
+    "agentId": "cass",
+    "taskType": "research",
+    "sessionStart": "2026-07-24T10:37:00.000Z",
+    "sessionEnd": "2026-07-24T10:44:00.000Z",
+    "tokenUsageInput": 6145,
+    "tokenUsageOutput": 2458,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Research alternatives to the current vector store",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "d4f24515-a1d9-4a6f-864d-528aceeb081b",
+    "agentId": "cass",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-24T11:35:00.000Z",
+    "sessionEnd": "2026-07-24T12:06:00.000Z",
+    "tokenUsageInput": 5932,
+    "tokenUsageOutput": 2135,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "run_tests"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Trace why token counts double-count on retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "6d36db9b-f17e-4977-8ac4-b94dc51105b7",
+    "agentId": "vega",
+    "taskType": "analysis",
+    "sessionStart": "2026-07-24T15:08:00.000Z",
+    "sessionEnd": "2026-07-24T15:33:00.000Z",
+    "tokenUsageInput": 3071,
+    "tokenUsageOutput": 1024,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 2,
+    "uniqueToolsUsed": [
+      "summarize_doc",
+      "database_query",
+      "execute_code"
+    ],
+    "failedToolNames": [
+      "database_query"
+    ],
+    "taskDescription": "Identify which tools correlate with failures",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "414322c7-8581-4441-b746-0905dd83e2a0",
+    "agentId": "nova",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-24T16:41:00.000Z",
+    "sessionEnd": "2026-07-24T17:13:00.000Z",
+    "tokenUsageInput": 3039,
+    "tokenUsageOutput": 912,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "flaky_api"
+    ],
+    "failedToolNames": [
+      "flaky_api"
+    ],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "6aee8a75-b5ae-4e04-a74a-3fd038198e49",
+    "agentId": "cass",
+    "taskType": "research",
+    "sessionStart": "2026-07-25T09:56:00.000Z",
+    "sessionEnd": "2026-07-25T10:11:00.000Z",
+    "tokenUsageInput": 4036,
+    "tokenUsageOutput": 1614,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "vector_search"
+    ],
+    "failedToolNames": [
+      "vector_search"
+    ],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "47186bb3-6b86-4a42-8b10-671f34de7a83",
+    "agentId": "orion",
+    "taskType": "coding",
+    "sessionStart": "2026-07-25T10:55:00.000Z",
+    "sessionEnd": "2026-07-25T11:30:00.000Z",
+    "tokenUsageInput": 7290,
+    "tokenUsageOutput": 2430,
+    "toolCallsTotal": 1,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Implement pagination for the entries endpoint",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "9b9cc470-a877-481c-8cec-491f8e642fdf",
+    "agentId": "juno",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-25T13:33:00.000Z",
+    "sessionEnd": "2026-07-25T14:04:00.000Z",
+    "tokenUsageInput": 4055,
+    "tokenUsageOutput": 1460,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "run_tests",
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate intermittent 500s on /api/diary/entry",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "7b527be5-409f-47c1-8425-b759b4284381",
+    "agentId": "cass",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-25T14:33:00.000Z",
+    "sessionEnd": "2026-07-25T14:48:00.000Z",
+    "tokenUsageInput": 3168,
+    "tokenUsageOutput": 1030,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [
+      "deploy_script"
+    ],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "0bf74067-006d-4e4a-8f96-c5313686f6bd",
+    "agentId": "lyra",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-25T15:41:00.000Z",
+    "sessionEnd": "2026-07-25T16:07:00.000Z",
+    "tokenUsageInput": 4510,
+    "tokenUsageOutput": 1466,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "d63fa11a-9abd-453f-a1eb-ef88a7ef98e2",
+    "agentId": "lyra",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-26T07:06:00.000Z",
+    "sessionEnd": "2026-07-26T07:37:00.000Z",
+    "tokenUsageInput": 3880,
+    "tokenUsageOutput": 1164,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 2,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "api_call"
+    ],
+    "failedToolNames": [
+      "cached_api"
+    ],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "808d89dc-1077-43fc-a8b0-f67c841f01b0",
+    "agentId": "lyra",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-26T07:30:00.000Z",
+    "sessionEnd": "2026-07-26T08:05:00.000Z",
+    "tokenUsageInput": 3427,
+    "tokenUsageOutput": 1234,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Fix flaky test in aggregator.test.ts",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "45157974-0c6b-4cd5-b411-ff0b88044e09",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-26T09:08:00.000Z",
+    "sessionEnd": "2026-07-26T09:37:00.000Z",
+    "tokenUsageInput": 3620,
+    "tokenUsageOutput": 1303,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "read_file",
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Fix flaky test in aggregator.test.ts",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "3909b50f-e999-4937-866e-0afd8471413a",
+    "agentId": "atlas",
+    "taskType": "research",
+    "sessionStart": "2026-07-26T10:17:00.000Z",
+    "sessionEnd": "2026-07-26T10:38:00.000Z",
+    "tokenUsageInput": 4719,
+    "tokenUsageOutput": 1887,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "2f2c735c-b55c-4e27-ba58-5af3aff7e5d1",
+    "agentId": "nova",
+    "taskType": "analysis",
+    "sessionStart": "2026-07-26T13:41:00.000Z",
+    "sessionEnd": "2026-07-26T14:05:00.000Z",
+    "tokenUsageInput": 4265,
+    "tokenUsageOutput": 1422,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "database_query",
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Compare completion rates across task types",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "dffa89d5-24f2-4d07-82cb-cc7fa61d6d0a",
+    "agentId": "lyra",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-26T13:57:00.000Z",
+    "sessionEnd": "2026-07-26T14:18:00.000Z",
+    "tokenUsageInput": 3593,
+    "tokenUsageOutput": 1078,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "19c2a4b6-de1a-43f6-b5ac-647c27808d6b",
+    "agentId": "lyra",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-26T20:32:00.000Z",
+    "sessionEnd": "2026-07-26T21:02:00.000Z",
+    "tokenUsageInput": 3595,
+    "tokenUsageOutput": 1078,
+    "toolCallsTotal": 1,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "17df732f-79ae-4efb-af85-55ddd47e3184",
+    "agentId": "nova",
+    "taskType": "research",
+    "sessionStart": "2026-07-27T09:15:00.000Z",
+    "sessionEnd": "2026-07-27T09:33:00.000Z",
+    "tokenUsageInput": 6372,
+    "tokenUsageOutput": 2549,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "61732d29-112f-417a-b047-6a11242dd649",
+    "agentId": "nova",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-27T09:23:00.000Z",
+    "sessionEnd": "2026-07-27T09:27:00.000Z",
+    "tokenUsageInput": 5427,
+    "tokenUsageOutput": 1764,
+    "toolCallsTotal": 1,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "lint"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Promote the Aura MCP config to prod",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "3d792f32-af74-456d-8fec-9162a4ad784a",
+    "agentId": "cass",
+    "taskType": "coding",
+    "sessionStart": "2026-07-27T10:11:00.000Z",
+    "sessionEnd": "2026-07-27T10:31:00.000Z",
+    "tokenUsageInput": 7961,
+    "tokenUsageOutput": 2654,
+    "toolCallsTotal": 9,
+    "toolCallsSucceeded": 9,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "write_file",
+      "read_file",
+      "lint"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Add retry logic to the tool executor",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "d41dfb8f-ede7-41d7-aeb8-f2a7cc7fc9ec",
+    "agentId": "atlas",
+    "taskType": "coding",
+    "sessionStart": "2026-07-27T11:21:00.000Z",
+    "sessionEnd": "2026-07-27T11:35:00.000Z",
+    "tokenUsageInput": 6246,
+    "tokenUsageOutput": 2082,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "write_file",
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Implement pagination for the entries endpoint",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "3983b4b6-7e42-41e8-ba86-b2d44b453531",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-27T11:42:00.000Z",
+    "sessionEnd": "2026-07-27T11:59:00.000Z",
+    "tokenUsageInput": 3989,
+    "tokenUsageOutput": 1436,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate intermittent 500s on /api/diary/entry",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "025eeaeb-58af-45b8-acdb-d6c2dadf931d",
+    "agentId": "juno",
+    "taskType": "coding",
+    "sessionStart": "2026-07-27T15:19:00.000Z",
+    "sessionEnd": "2026-07-27T15:50:00.000Z",
+    "tokenUsageInput": 6865,
+    "tokenUsageOutput": 2288,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "lint"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Write the CSV export helper",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "5dc2b3bb-a380-4b78-9610-236e19103820",
+    "agentId": "cass",
+    "taskType": "research",
+    "sessionStart": "2026-07-27T15:25:00.000Z",
+    "sessionEnd": "2026-07-27T15:45:00.000Z",
+    "tokenUsageInput": 6891,
+    "tokenUsageOutput": 2757,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 2,
+    "uniqueToolsUsed": [
+      "web_search"
+    ],
+    "failedToolNames": [
+      "web_search"
+    ],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "441a91f5-025c-4631-a3e1-f8659115c2a9",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-28T10:05:00.000Z",
+    "sessionEnd": "2026-07-28T10:11:00.000Z",
+    "tokenUsageInput": 3292,
+    "tokenUsageOutput": 1185,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Trace why token counts double-count on retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "02116e10-940f-42d4-a40c-5c88b7f9fec9",
+    "agentId": "vega",
+    "taskType": "coding",
+    "sessionStart": "2026-07-28T16:32:00.000Z",
+    "sessionEnd": "2026-07-28T16:46:00.000Z",
+    "tokenUsageInput": 4767,
+    "tokenUsageOutput": 1589,
+    "toolCallsTotal": 1,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Refactor the aggregator into pure functions",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "a40a17ea-a3c6-4bff-bc00-94154bb7af52",
+    "agentId": "cass",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-28T16:43:00.000Z",
+    "sessionEnd": "2026-07-28T17:05:00.000Z",
+    "tokenUsageInput": 5059,
+    "tokenUsageOutput": 1518,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "api_call",
+      "flaky_api"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Pull last week's session logs from the archive",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "6a84c069-4bb9-4121-a362-843ef34856a4",
+    "agentId": "orion",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-28T18:10:00.000Z",
+    "sessionEnd": "2026-07-28T18:17:00.000Z",
+    "tokenUsageInput": 3140,
+    "tokenUsageOutput": 1020,
+    "toolCallsTotal": 8,
+    "toolCallsSucceeded": 8,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "shell_exec",
+      "deploy_script",
+      "lint"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "63f9b773-f6b7-4cb2-8a14-3e015775c89e",
+    "agentId": "lyra",
+    "taskType": "coding",
+    "sessionStart": "2026-07-28T19:00:00.000Z",
+    "sessionEnd": "2026-07-28T19:23:00.000Z",
+    "tokenUsageInput": 6523,
+    "tokenUsageOutput": 2174,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "lint",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Write the CSV export helper",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "3f1b5158-ef04-4fde-a132-807a3e06e258",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-28T21:42:00.000Z",
+    "sessionEnd": "2026-07-28T22:00:00.000Z",
+    "tokenUsageInput": 5272,
+    "tokenUsageOutput": 1898,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Chase down a race condition in the upsert path",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "bd5af505-91ad-484b-b92f-e1e7d138c515",
+    "agentId": "nova",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-29T07:37:00.000Z",
+    "sessionEnd": "2026-07-29T07:41:00.000Z",
+    "tokenUsageInput": 2939,
+    "tokenUsageOutput": 882,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "api_call"
+    ],
+    "failedToolNames": [
+      "flaky_api"
+    ],
+    "taskDescription": "Extract tool call metadata from raw traces",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "a2d37c10-500b-436c-899b-678acfc25fb6",
+    "agentId": "orion",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-29T07:50:00.000Z",
+    "sessionEnd": "2026-07-29T08:04:00.000Z",
+    "tokenUsageInput": 3032,
+    "tokenUsageOutput": 985,
+    "toolCallsTotal": 1,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Deploy the reflect endpoint to staging",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "4a0fa5a2-8419-4fbb-8ba7-21d30f4b2d5a",
+    "agentId": "orion",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-29T09:12:00.000Z",
+    "sessionEnd": "2026-07-29T09:45:00.000Z",
+    "tokenUsageInput": 3934,
+    "tokenUsageOutput": 1279,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [
+      "deploy_script"
+    ],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "82cb04ab-6e97-4b05-98cb-772625efa111",
+    "agentId": "nova",
+    "taskType": "coding",
+    "sessionStart": "2026-07-29T12:22:00.000Z",
+    "sessionEnd": "2026-07-29T12:57:00.000Z",
+    "tokenUsageInput": 3772,
+    "tokenUsageOutput": 1257,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "write_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Add retry logic to the tool executor",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "25f1777a-7fe5-46b4-bd72-43b655ca484a",
+    "agentId": "atlas",
+    "taskType": "analysis",
+    "sessionStart": "2026-07-29T12:26:00.000Z",
+    "sessionEnd": "2026-07-29T12:34:00.000Z",
+    "tokenUsageInput": 4479,
+    "tokenUsageOutput": 1493,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Identify which tools correlate with failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "7c614878-b2aa-40a3-8499-5ad0b839788f",
+    "agentId": "nova",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-29T14:11:00.000Z",
+    "sessionEnd": "2026-07-29T14:21:00.000Z",
+    "tokenUsageInput": 5559,
+    "tokenUsageOutput": 1807,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "dc9e3471-f13f-4fc7-bb76-2fe0955715ee",
+    "agentId": "vega",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-07-29T14:46:00.000Z",
+    "sessionEnd": "2026-07-29T14:53:00.000Z",
+    "tokenUsageInput": 3249,
+    "tokenUsageOutput": 975,
+    "toolCallsTotal": 1,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "78ea4c64-d7fb-46fa-8f46-124ae5f81539",
+    "agentId": "juno",
+    "taskType": "coding",
+    "sessionStart": "2026-07-29T15:47:00.000Z",
+    "sessionEnd": "2026-07-29T16:11:00.000Z",
+    "tokenUsageInput": 5071,
+    "tokenUsageOutput": 1690,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "lint",
+      "write_file",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Implement pagination for the entries endpoint",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "03e6e9fe-855a-4275-bf51-cecc19b0f295",
+    "agentId": "juno",
+    "taskType": "research",
+    "sessionStart": "2026-07-29T18:39:00.000Z",
+    "sessionEnd": "2026-07-29T18:57:00.000Z",
+    "tokenUsageInput": 4006,
+    "tokenUsageOutput": 1602,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "summarize_doc",
+      "web_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Research alternatives to the current vector store",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "1aae608f-b653-4ff0-b886-3a5eb653eb9f",
+    "agentId": "orion",
+    "taskType": "research",
+    "sessionStart": "2026-07-29T19:38:00.000Z",
+    "sessionEnd": "2026-07-29T19:56:00.000Z",
+    "tokenUsageInput": 5534,
+    "tokenUsageOutput": 2213,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "954ab051-969b-4180-8280-23eee22c7cd0",
+    "agentId": "vega",
+    "taskType": "analysis",
+    "sessionStart": "2026-07-30T07:04:00.000Z",
+    "sessionEnd": "2026-07-30T07:34:00.000Z",
+    "tokenUsageInput": 3356,
+    "tokenUsageOutput": 1119,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Summarize this week's workload distribution",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "a76b8a28-b62b-459c-b239-bccb4ccc13a5",
+    "agentId": "nova",
+    "taskType": "research",
+    "sessionStart": "2026-07-30T07:15:00.000Z",
+    "sessionEnd": "2026-07-30T07:21:00.000Z",
+    "tokenUsageInput": 5989,
+    "tokenUsageOutput": 2396,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "summarize_doc",
+      "web_search",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "b80871e8-746d-4f5c-966c-51b3c374c694",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-30T07:23:00.000Z",
+    "sessionEnd": "2026-07-30T07:58:00.000Z",
+    "tokenUsageInput": 5104,
+    "tokenUsageOutput": 1838,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code",
+      "grep"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate intermittent 500s on /api/diary/entry",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "8300b7d7-4c79-4129-bb8b-7544c8930f1a",
+    "agentId": "lyra",
+    "taskType": "analysis",
+    "sessionStart": "2026-07-30T08:48:00.000Z",
+    "sessionEnd": "2026-07-30T08:53:00.000Z",
+    "tokenUsageInput": 4095,
+    "tokenUsageOutput": 1365,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Review token spend per session",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "2e99b2de-90cd-4146-91c3-1d903c5bc609",
+    "agentId": "nova",
+    "taskType": "analysis",
+    "sessionStart": "2026-07-30T11:00:00.000Z",
+    "sessionEnd": "2026-07-30T11:12:00.000Z",
+    "tokenUsageInput": 5708,
+    "tokenUsageOutput": 1903,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 2,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "api_call"
+    ],
+    "failedToolNames": [
+      "flaky_api"
+    ],
+    "taskDescription": "Review token spend per session",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "396175ed-cb7d-43a4-846b-4dd1fc650a2a",
+    "agentId": "atlas",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-30T17:42:00.000Z",
+    "sessionEnd": "2026-07-30T18:14:00.000Z",
+    "tokenUsageInput": 6094,
+    "tokenUsageOutput": 2194,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "run_tests",
+      "read_file",
+      "grep"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Fix flaky test in aggregator.test.ts",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "74731ddb-a587-43b7-a8ca-f0c86ef09c48",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-07-30T18:16:00.000Z",
+    "sessionEnd": "2026-07-30T18:50:00.000Z",
+    "tokenUsageInput": 5575,
+    "tokenUsageOutput": 2007,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file"
+    ],
+    "failedToolNames": [
+      "read_file"
+    ],
+    "taskDescription": "Trace why token counts double-count on retries",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "e93e38a5-8d7f-4a18-9ffd-7dbab800b493",
+    "agentId": "juno",
+    "taskType": "coding",
+    "sessionStart": "2026-07-30T20:45:00.000Z",
+    "sessionEnd": "2026-07-30T21:09:00.000Z",
+    "tokenUsageInput": 5129,
+    "tokenUsageOutput": 1710,
+    "toolCallsTotal": 1,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "lint"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Add retry logic to the tool executor",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "04e4ddb1-e8e5-4c5c-aeb9-c6809076c1e6",
+    "agentId": "vega",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-31T10:10:00.000Z",
+    "sessionEnd": "2026-07-31T10:15:00.000Z",
+    "tokenUsageInput": 2636,
+    "tokenUsageOutput": 857,
+    "toolCallsTotal": 1,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Promote the Aura MCP config to prod",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "dcb54430-6524-4300-9005-b0600823a748",
+    "agentId": "atlas",
+    "taskType": "research",
+    "sessionStart": "2026-07-31T11:27:00.000Z",
+    "sessionEnd": "2026-07-31T11:55:00.000Z",
+    "tokenUsageInput": 7663,
+    "tokenUsageOutput": 3065,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "daa7431c-8ebf-4538-b55a-2d4da944aacd",
+    "agentId": "cass",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-31T12:20:00.000Z",
+    "sessionEnd": "2026-07-31T12:32:00.000Z",
+    "tokenUsageInput": 3172,
+    "tokenUsageOutput": 1031,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "lint",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "5a17f18b-d4fb-4f41-b0b9-3506bb440e6b",
+    "agentId": "juno",
+    "taskType": "coding",
+    "sessionStart": "2026-07-31T12:34:00.000Z",
+    "sessionEnd": "2026-07-31T12:53:00.000Z",
+    "tokenUsageInput": 6752,
+    "tokenUsageOutput": 2251,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "write_file",
+      "lint",
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Write the CSV export helper",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "2dd94ff9-94f5-4976-a0ee-05e5d5a7842c",
+    "agentId": "orion",
+    "taskType": "research",
+    "sessionStart": "2026-07-31T13:25:00.000Z",
+    "sessionEnd": "2026-07-31T13:57:00.000Z",
+    "tokenUsageInput": 4352,
+    "tokenUsageOutput": 1741,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "567ff51d-148d-4069-a7de-f66d01786726",
+    "agentId": "atlas",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-31T15:59:00.000Z",
+    "sessionEnd": "2026-07-31T16:27:00.000Z",
+    "tokenUsageInput": 5534,
+    "tokenUsageOutput": 1799,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "100c36ff-f881-46f3-8280-79faff07857b",
+    "agentId": "cass",
+    "taskType": "analysis",
+    "sessionStart": "2026-07-31T16:58:00.000Z",
+    "sessionEnd": "2026-07-31T17:06:00.000Z",
+    "tokenUsageInput": 3135,
+    "tokenUsageOutput": 1045,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "summarize_doc",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Summarize this week's workload distribution",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "05a8eb3f-3e77-48e4-8105-ed4a2b55c49c",
+    "agentId": "orion",
+    "taskType": "coding",
+    "sessionStart": "2026-07-31T17:31:00.000Z",
+    "sessionEnd": "2026-07-31T17:40:00.000Z",
+    "tokenUsageInput": 7569,
+    "tokenUsageOutput": 2523,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "write_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Refactor the aggregator into pure functions",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "ad74ceb8-d919-4ef9-b1c1-a08a32e7bfad",
+    "agentId": "lyra",
+    "taskType": "deployment",
+    "sessionStart": "2026-07-31T17:59:00.000Z",
+    "sessionEnd": "2026-07-31T18:13:00.000Z",
+    "tokenUsageInput": 3194,
+    "tokenUsageOutput": 1038,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "54963937-718e-4915-b051-4b4848431d17",
+    "agentId": "cass",
+    "taskType": "research",
+    "sessionStart": "2026-07-31T18:44:00.000Z",
+    "sessionEnd": "2026-07-31T19:04:00.000Z",
+    "tokenUsageInput": 4362,
+    "tokenUsageOutput": 1745,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "e7d94d93-3602-42bc-88c1-6322e0692a1d",
+    "agentId": "vega",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-01T07:19:00.000Z",
+    "sessionEnd": "2026-08-01T07:39:00.000Z",
+    "tokenUsageInput": 3314,
+    "tokenUsageOutput": 1077,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "6ae9afeb-e1d7-4c10-aa41-5135fa600e16",
+    "agentId": "juno",
+    "taskType": "research",
+    "sessionStart": "2026-08-01T10:24:00.000Z",
+    "sessionEnd": "2026-08-01T10:41:00.000Z",
+    "tokenUsageInput": 6291,
+    "tokenUsageOutput": 2516,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "5f0fb930-cdbd-42ac-a50b-b5fcb688343c",
+    "agentId": "vega",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-01T11:40:00.000Z",
+    "sessionEnd": "2026-08-01T12:01:00.000Z",
+    "tokenUsageInput": 2439,
+    "tokenUsageOutput": 793,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Promote the Aura MCP config to prod",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "1562359c-6f8f-49bf-a029-04ac7e49fa15",
+    "agentId": "vega",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-01T13:29:00.000Z",
+    "sessionEnd": "2026-08-01T13:35:00.000Z",
+    "tokenUsageInput": 4683,
+    "tokenUsageOutput": 1522,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Deploy the reflect endpoint to staging",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "f15f8c0e-0524-4e12-bdfa-3aabb2aa00cf",
+    "agentId": "nova",
+    "taskType": "research",
+    "sessionStart": "2026-08-01T15:30:00.000Z",
+    "sessionEnd": "2026-08-01T15:40:00.000Z",
+    "tokenUsageInput": 3414,
+    "tokenUsageOutput": 1366,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "vector_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "531cd1fe-f60f-4a90-b546-701d0bd7cba4",
+    "agentId": "cass",
+    "taskType": "research",
+    "sessionStart": "2026-08-01T16:55:00.000Z",
+    "sessionEnd": "2026-08-01T17:29:00.000Z",
+    "tokenUsageInput": 5671,
+    "tokenUsageOutput": 2269,
+    "toolCallsTotal": 9,
+    "toolCallsSucceeded": 9,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "summarize_doc",
+      "vector_search",
+      "web_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "0b209172-b3aa-42ce-a5dd-704a90b8340e",
+    "agentId": "cass",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-01T17:37:00.000Z",
+    "sessionEnd": "2026-08-01T17:55:00.000Z",
+    "tokenUsageInput": 2575,
+    "tokenUsageOutput": 837,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [
+      "deploy_script"
+    ],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "55876d37-41df-4cee-b56b-25095f61325d",
+    "agentId": "nova",
+    "taskType": "research",
+    "sessionStart": "2026-08-01T19:55:00.000Z",
+    "sessionEnd": "2026-08-01T20:05:00.000Z",
+    "tokenUsageInput": 7520,
+    "tokenUsageOutput": 3008,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "9db079d7-d788-4cb3-a0cc-9011bacb8529",
+    "agentId": "orion",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-01T19:59:00.000Z",
+    "sessionEnd": "2026-08-01T20:31:00.000Z",
+    "tokenUsageInput": 4353,
+    "tokenUsageOutput": 1306,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "database_query",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Pull last week's session logs from the archive",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "97437832-b700-49ff-b9e8-afa1fa58581e",
+    "agentId": "lyra",
+    "taskType": "research",
+    "sessionStart": "2026-08-02T09:30:00.000Z",
+    "sessionEnd": "2026-08-02T10:00:00.000Z",
+    "tokenUsageInput": 6276,
+    "tokenUsageOutput": 2510,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "ac5a19eb-b1fc-483f-80b1-d6d4eb884d3e",
+    "agentId": "nova",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-02T10:21:00.000Z",
+    "sessionEnd": "2026-08-02T10:33:00.000Z",
+    "tokenUsageInput": 4533,
+    "tokenUsageOutput": 1360,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "api_call",
+      "cached_api"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "8f768275-0a48-42b0-b8b9-f64819dd1ab3",
+    "agentId": "atlas",
+    "taskType": "coding",
+    "sessionStart": "2026-08-02T11:11:00.000Z",
+    "sessionEnd": "2026-08-02T11:15:00.000Z",
+    "tokenUsageInput": 4742,
+    "tokenUsageOutput": 1581,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "execute_code",
+      "read_file"
+    ],
+    "failedToolNames": [
+      "read_file"
+    ],
+    "taskDescription": "Write the CSV export helper",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "313eb459-b48d-4b79-9e87-6328ff4730bc",
+    "agentId": "lyra",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-02T12:30:00.000Z",
+    "sessionEnd": "2026-08-02T12:42:00.000Z",
+    "tokenUsageInput": 3774,
+    "tokenUsageOutput": 1226,
+    "toolCallsTotal": 8,
+    "toolCallsSucceeded": 8,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Promote the Aura MCP config to prod",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "a173c476-a3b1-458a-bc2f-fc339a6a3b73",
+    "agentId": "cass",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-02T13:05:00.000Z",
+    "sessionEnd": "2026-08-02T13:37:00.000Z",
+    "tokenUsageInput": 3669,
+    "tokenUsageOutput": 1101,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Pull last week's session logs from the archive",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "ad7ab391-461d-49ba-9dc2-98eb39acff1a",
+    "agentId": "vega",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-02T14:36:00.000Z",
+    "sessionEnd": "2026-08-02T14:57:00.000Z",
+    "tokenUsageInput": 3031,
+    "tokenUsageOutput": 1010,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 0,
+    "toolCallsFailed": 3,
+    "uniqueToolsUsed": [
+      "database_query"
+    ],
+    "failedToolNames": [
+      "database_query"
+    ],
+    "taskDescription": "Review token spend per session",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "2a1d86c0-40cf-4609-ac7e-19f0fefda8ed",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-03T08:30:00.000Z",
+    "sessionEnd": "2026-08-03T08:43:00.000Z",
+    "tokenUsageInput": 4831,
+    "tokenUsageOutput": 1739,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file",
+      "run_tests"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Trace why token counts double-count on retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "d583efa7-d3bc-41e0-b4a7-3111c3fbec72",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-03T15:10:00.000Z",
+    "sessionEnd": "2026-08-03T15:45:00.000Z",
+    "tokenUsageInput": 6452,
+    "tokenUsageOutput": 2323,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file",
+      "run_tests"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Trace why token counts double-count on retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "5d1cca35-6784-4d67-9f3f-2163134c8e85",
+    "agentId": "atlas",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-03T15:14:00.000Z",
+    "sessionEnd": "2026-08-03T15:40:00.000Z",
+    "tokenUsageInput": 4529,
+    "tokenUsageOutput": 1472,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Promote the Aura MCP config to prod",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "713381bd-d441-4216-8255-0b5b85153451",
+    "agentId": "vega",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-03T15:39:00.000Z",
+    "sessionEnd": "2026-08-03T15:43:00.000Z",
+    "tokenUsageInput": 3711,
+    "tokenUsageOutput": 1113,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "d257431a-b116-4947-a2bb-a5d43e8a5ff5",
+    "agentId": "cass",
+    "taskType": "research",
+    "sessionStart": "2026-08-03T16:40:00.000Z",
+    "sessionEnd": "2026-08-03T16:45:00.000Z",
+    "tokenUsageInput": 6858,
+    "tokenUsageOutput": 2743,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "36b68302-300a-43c4-9f26-246f77b81fb9",
+    "agentId": "atlas",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-04T10:55:00.000Z",
+    "sessionEnd": "2026-08-04T11:26:00.000Z",
+    "tokenUsageInput": 3540,
+    "tokenUsageOutput": 1150,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check",
+      "lint"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "9a9c7cff-a427-4499-80b3-2e71af6c77b1",
+    "agentId": "lyra",
+    "taskType": "research",
+    "sessionStart": "2026-08-04T16:51:00.000Z",
+    "sessionEnd": "2026-08-04T17:13:00.000Z",
+    "tokenUsageInput": 3981,
+    "tokenUsageOutput": 1592,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "306751c0-45ad-4df4-b066-9d508fcba4ba",
+    "agentId": "lyra",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-04T18:36:00.000Z",
+    "sessionEnd": "2026-08-04T19:06:00.000Z",
+    "tokenUsageInput": 6955,
+    "tokenUsageOutput": 2504,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code",
+      "grep"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Chase down a race condition in the upsert path",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "9ab51592-11fe-4cd6-9998-c039928d968b",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-04T18:53:00.000Z",
+    "sessionEnd": "2026-08-04T19:09:00.000Z",
+    "tokenUsageInput": 6468,
+    "tokenUsageOutput": 2328,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file",
+      "run_tests"
+    ],
+    "failedToolNames": [
+      "run_tests"
+    ],
+    "taskDescription": "Fix flaky test in aggregator.test.ts",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "d1a0f8bd-4691-4d31-9c9e-f483a86746ba",
+    "agentId": "juno",
+    "taskType": "coding",
+    "sessionStart": "2026-08-04T21:18:00.000Z",
+    "sessionEnd": "2026-08-04T21:23:00.000Z",
+    "tokenUsageInput": 7749,
+    "tokenUsageOutput": 2583,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "execute_code"
+    ],
+    "failedToolNames": [
+      "execute_code"
+    ],
+    "taskDescription": "Implement pagination for the entries endpoint",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "3661ca25-b90f-432b-895a-1fcc66627ff8",
+    "agentId": "lyra",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-05T08:15:00.000Z",
+    "sessionEnd": "2026-08-05T08:42:00.000Z",
+    "tokenUsageInput": 5084,
+    "tokenUsageOutput": 1525,
+    "toolCallsTotal": 1,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Pull last week's session logs from the archive",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "b347c829-208c-41b3-892b-793a2f4abad4",
+    "agentId": "orion",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-05T08:16:00.000Z",
+    "sessionEnd": "2026-08-05T08:21:00.000Z",
+    "tokenUsageInput": 2795,
+    "tokenUsageOutput": 839,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "api_call",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "663cf10f-249d-4027-8fc1-5f468a2702a4",
+    "agentId": "nova",
+    "taskType": "coding",
+    "sessionStart": "2026-08-05T09:43:00.000Z",
+    "sessionEnd": "2026-08-05T10:02:00.000Z",
+    "tokenUsageInput": 8271,
+    "tokenUsageOutput": 2757,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "read_file",
+      "write_file",
+      "lint"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Implement pagination for the entries endpoint",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "af490256-9719-4326-8d9f-025a32cb7ce7",
+    "agentId": "lyra",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-05T10:15:00.000Z",
+    "sessionEnd": "2026-08-05T10:49:00.000Z",
+    "tokenUsageInput": 3326,
+    "tokenUsageOutput": 1081,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 3,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [
+      "deploy_script"
+    ],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "9b406cd2-fd4b-43bb-b8c7-00e0bc755180",
+    "agentId": "juno",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-05T12:47:00.000Z",
+    "sessionEnd": "2026-08-05T13:11:00.000Z",
+    "tokenUsageInput": 4182,
+    "tokenUsageOutput": 1505,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "execute_code",
+      "read_file"
+    ],
+    "failedToolNames": [
+      "read_file"
+    ],
+    "taskDescription": "Chase down a race condition in the upsert path",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "7a89f071-b804-411e-a5e4-4be2daefea1f",
+    "agentId": "orion",
+    "taskType": "coding",
+    "sessionStart": "2026-08-05T15:23:00.000Z",
+    "sessionEnd": "2026-08-05T15:37:00.000Z",
+    "tokenUsageInput": 3857,
+    "tokenUsageOutput": 1286,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "lint"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Implement pagination for the entries endpoint",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "1e14dde3-a9b4-4773-ae05-40257ea03f02",
+    "agentId": "juno",
+    "taskType": "coding",
+    "sessionStart": "2026-08-05T15:45:00.000Z",
+    "sessionEnd": "2026-08-05T16:17:00.000Z",
+    "tokenUsageInput": 4333,
+    "tokenUsageOutput": 1444,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "lint",
+      "write_file",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Add retry logic to the tool executor",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "2e9634ea-b522-4ee5-8b18-9dea3bbed97f",
+    "agentId": "orion",
+    "taskType": "research",
+    "sessionStart": "2026-08-05T19:35:00.000Z",
+    "sessionEnd": "2026-08-05T19:45:00.000Z",
+    "tokenUsageInput": 3391,
+    "tokenUsageOutput": 1356,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Research alternatives to the current vector store",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "a55981ca-da13-4e1a-817e-8c016279e263",
+    "agentId": "lyra",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-05T19:36:00.000Z",
+    "sessionEnd": "2026-08-05T19:42:00.000Z",
+    "tokenUsageInput": 3617,
+    "tokenUsageOutput": 1085,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "29d85568-09ae-4190-8f33-18d2fe1d6717",
+    "agentId": "orion",
+    "taskType": "research",
+    "sessionStart": "2026-08-05T20:08:00.000Z",
+    "sessionEnd": "2026-08-05T20:27:00.000Z",
+    "tokenUsageInput": 3894,
+    "tokenUsageOutput": 1558,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Research alternatives to the current vector store",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "5a42edc7-143f-444b-b203-f98e4cdec0cb",
+    "agentId": "atlas",
+    "taskType": "research",
+    "sessionStart": "2026-08-05T20:40:00.000Z",
+    "sessionEnd": "2026-08-05T20:50:00.000Z",
+    "tokenUsageInput": 6446,
+    "tokenUsageOutput": 2578,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "1ad31d17-c9fc-47a1-8d2f-163a22bdaa07",
+    "agentId": "lyra",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-05T21:33:00.000Z",
+    "sessionEnd": "2026-08-05T21:55:00.000Z",
+    "tokenUsageInput": 5599,
+    "tokenUsageOutput": 1866,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Summarize this week's workload distribution",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "6db01169-fced-4a0c-ab1d-f06c63f1b141",
+    "agentId": "nova",
+    "taskType": "research",
+    "sessionStart": "2026-08-06T07:08:00.000Z",
+    "sessionEnd": "2026-08-06T07:28:00.000Z",
+    "tokenUsageInput": 7579,
+    "tokenUsageOutput": 3032,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "b6f7f041-57c9-497d-9152-5b40219ab4b8",
+    "agentId": "cass",
+    "taskType": "research",
+    "sessionStart": "2026-08-06T07:27:00.000Z",
+    "sessionEnd": "2026-08-06T07:37:00.000Z",
+    "tokenUsageInput": 4403,
+    "tokenUsageOutput": 1761,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "6455c11d-9a6f-4dcf-90cd-d145a785a126",
+    "agentId": "atlas",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-06T08:41:00.000Z",
+    "sessionEnd": "2026-08-06T09:02:00.000Z",
+    "tokenUsageInput": 4886,
+    "tokenUsageOutput": 1629,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Review token spend per session",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "86288fc4-5eef-4243-8a28-d1146c98aa71",
+    "agentId": "cass",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-06T09:19:00.000Z",
+    "sessionEnd": "2026-08-06T09:43:00.000Z",
+    "tokenUsageInput": 5115,
+    "tokenUsageOutput": 1662,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "490c0a94-61ab-4feb-b34e-a7ee058de31d",
+    "agentId": "cass",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-06T09:49:00.000Z",
+    "sessionEnd": "2026-08-06T10:00:00.000Z",
+    "tokenUsageInput": 5143,
+    "tokenUsageOutput": 1671,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "be59060d-a85a-4497-9ce8-965b9c55d68d",
+    "agentId": "lyra",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-06T10:22:00.000Z",
+    "sessionEnd": "2026-08-06T10:35:00.000Z",
+    "tokenUsageInput": 5292,
+    "tokenUsageOutput": 1720,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [
+      "deploy_script"
+    ],
+    "taskDescription": "Deploy the reflect endpoint to staging",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "f7c02ad9-8f50-4c74-b17c-afc789d701fc",
+    "agentId": "vega",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-06T11:38:00.000Z",
+    "sessionEnd": "2026-08-06T11:42:00.000Z",
+    "tokenUsageInput": 3478,
+    "tokenUsageOutput": 1159,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Summarize this week's workload distribution",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "125b877c-568e-469f-9ad7-4d821b4efb52",
+    "agentId": "atlas",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-06T13:21:00.000Z",
+    "sessionEnd": "2026-08-06T13:29:00.000Z",
+    "tokenUsageInput": 5726,
+    "tokenUsageOutput": 2061,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code",
+      "grep",
+      "run_tests"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate intermittent 500s on /api/diary/entry",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "fbc0a9b9-cf20-400e-8245-686c719ae656",
+    "agentId": "lyra",
+    "taskType": "coding",
+    "sessionStart": "2026-08-06T14:42:00.000Z",
+    "sessionEnd": "2026-08-06T15:02:00.000Z",
+    "tokenUsageInput": 5476,
+    "tokenUsageOutput": 1825,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "write_file",
+      "read_file",
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Refactor the aggregator into pure functions",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "4f3a70f8-d8a8-4163-8883-772827473a86",
+    "agentId": "orion",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-06T16:22:00.000Z",
+    "sessionEnd": "2026-08-06T16:40:00.000Z",
+    "tokenUsageInput": 4524,
+    "tokenUsageOutput": 1629,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "run_tests",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Trace why token counts double-count on retries",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "1d9115a7-bb63-48b4-94f9-a405f35f9638",
+    "agentId": "orion",
+    "taskType": "research",
+    "sessionStart": "2026-08-06T20:19:00.000Z",
+    "sessionEnd": "2026-08-06T20:44:00.000Z",
+    "tokenUsageInput": 5941,
+    "tokenUsageOutput": 2377,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "5b10506b-7075-41f8-9eaa-1450b944f73f",
+    "agentId": "cass",
+    "taskType": "research",
+    "sessionStart": "2026-08-07T07:54:00.000Z",
+    "sessionEnd": "2026-08-07T08:09:00.000Z",
+    "tokenUsageInput": 6206,
+    "tokenUsageOutput": 2482,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "vector_search",
+      "summarize_doc",
+      "web_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "e555e6fc-3847-427d-acf8-e86fa07a1055",
+    "agentId": "vega",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-07T08:33:00.000Z",
+    "sessionEnd": "2026-08-07T08:58:00.000Z",
+    "tokenUsageInput": 3363,
+    "tokenUsageOutput": 1093,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "lint",
+      "deploy_script",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Deploy the reflect endpoint to staging",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "7c9b6caa-448e-4202-ad4d-54a38d532642",
+    "agentId": "atlas",
+    "taskType": "coding",
+    "sessionStart": "2026-08-07T15:15:00.000Z",
+    "sessionEnd": "2026-08-07T15:35:00.000Z",
+    "tokenUsageInput": 5080,
+    "tokenUsageOutput": 1693,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "lint"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Implement pagination for the entries endpoint",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "48bd5e6d-06cb-4d31-a373-9b1acbd47be9",
+    "agentId": "vega",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-07T15:41:00.000Z",
+    "sessionEnd": "2026-08-07T15:55:00.000Z",
+    "tokenUsageInput": 5050,
+    "tokenUsageOutput": 1515,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract tool call metadata from raw traces",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "364d229b-dbdd-4522-85f4-aadd5eac0709",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-07T16:39:00.000Z",
+    "sessionEnd": "2026-08-07T16:59:00.000Z",
+    "tokenUsageInput": 6554,
+    "tokenUsageOutput": 2359,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file",
+      "run_tests"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Chase down a race condition in the upsert path",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "7c22f63a-88dd-467a-bf3c-209dda7af377",
+    "agentId": "lyra",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-07T18:51:00.000Z",
+    "sessionEnd": "2026-08-07T19:18:00.000Z",
+    "tokenUsageInput": 3267,
+    "tokenUsageOutput": 1176,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "run_tests"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Chase down a race condition in the upsert path",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "fffa3514-c17a-49a2-bdf2-8a017d23d2f5",
+    "agentId": "vega",
+    "taskType": "research",
+    "sessionStart": "2026-08-07T20:25:00.000Z",
+    "sessionEnd": "2026-08-07T20:56:00.000Z",
+    "tokenUsageInput": 4953,
+    "tokenUsageOutput": 1981,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "aa6e56d1-956a-41fd-b51f-6f4f150d69a8",
+    "agentId": "vega",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-07T20:57:00.000Z",
+    "sessionEnd": "2026-08-07T21:02:00.000Z",
+    "tokenUsageInput": 3517,
+    "tokenUsageOutput": 1172,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Summarize this week's workload distribution",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "f1599e82-6b4b-40fb-8035-a63e35bb81ae",
+    "agentId": "atlas",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-08T07:22:00.000Z",
+    "sessionEnd": "2026-08-08T07:31:00.000Z",
+    "tokenUsageInput": 4387,
+    "tokenUsageOutput": 1426,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "e36d68f9-32b7-41cc-8ac2-df0b961a4393",
+    "agentId": "vega",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-08T07:49:00.000Z",
+    "sessionEnd": "2026-08-08T08:19:00.000Z",
+    "tokenUsageInput": 3992,
+    "tokenUsageOutput": 1297,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "dry_run_check"
+    ],
+    "failedToolNames": [
+      "deploy_script"
+    ],
+    "taskDescription": "Promote the Aura MCP config to prod",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "ca47323c-a6a5-420d-805b-02b5336d4179",
+    "agentId": "juno",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-08T08:48:00.000Z",
+    "sessionEnd": "2026-08-08T09:20:00.000Z",
+    "tokenUsageInput": 3938,
+    "tokenUsageOutput": 1418,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Fix flaky test in aggregator.test.ts",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "4ddaaf61-0cba-45fe-b382-717e6193ba48",
+    "agentId": "orion",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-08T11:53:00.000Z",
+    "sessionEnd": "2026-08-08T12:05:00.000Z",
+    "tokenUsageInput": 3716,
+    "tokenUsageOutput": 1115,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "database_query",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "3336793a-5fc6-4f9f-8e61-ec7c2d789af2",
+    "agentId": "lyra",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-08T14:06:00.000Z",
+    "sessionEnd": "2026-08-08T14:39:00.000Z",
+    "tokenUsageInput": 3044,
+    "tokenUsageOutput": 1015,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Identify which tools correlate with failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "edba3dee-eddb-4190-8daf-c187ec5a6a2c",
+    "agentId": "vega",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-08T14:47:00.000Z",
+    "sessionEnd": "2026-08-08T15:20:00.000Z",
+    "tokenUsageInput": 4570,
+    "tokenUsageOutput": 1485,
+    "toolCallsTotal": 8,
+    "toolCallsSucceeded": 8,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Promote the Aura MCP config to prod",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "d75c7c6a-96f7-4a88-b74c-1d8f77472082",
+    "agentId": "nova",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-08T15:24:00.000Z",
+    "sessionEnd": "2026-08-08T15:28:00.000Z",
+    "tokenUsageInput": 3322,
+    "tokenUsageOutput": 1080,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [
+      "deploy_script"
+    ],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "5dfff2ff-1854-4f73-94e3-5c68ad9747a9",
+    "agentId": "cass",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-08T16:20:00.000Z",
+    "sessionEnd": "2026-08-08T16:27:00.000Z",
+    "tokenUsageInput": 5925,
+    "tokenUsageOutput": 2133,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "execute_code",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate intermittent 500s on /api/diary/entry",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "5cac0f51-54c6-4096-89f6-ed57446996c3",
+    "agentId": "lyra",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-08T17:28:00.000Z",
+    "sessionEnd": "2026-08-08T17:57:00.000Z",
+    "tokenUsageInput": 4749,
+    "tokenUsageOutput": 1425,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "database_query",
+      "flaky_api"
+    ],
+    "failedToolNames": [
+      "database_query"
+    ],
+    "taskDescription": "Extract tool call metadata from raw traces",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "e99bb602-4a63-417a-8d9f-67ea6798f56d",
+    "agentId": "nova",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-08T18:35:00.000Z",
+    "sessionEnd": "2026-08-08T18:54:00.000Z",
+    "tokenUsageInput": 5177,
+    "tokenUsageOutput": 1553,
+    "toolCallsTotal": 8,
+    "toolCallsSucceeded": 8,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "cached_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "1f8a3edf-179c-426d-a8d0-22b806bb268a",
+    "agentId": "nova",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-08T19:41:00.000Z",
+    "sessionEnd": "2026-08-08T20:14:00.000Z",
+    "tokenUsageInput": 6080,
+    "tokenUsageOutput": 2027,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "api_call"
+    ],
+    "failedToolNames": [
+      "flaky_api"
+    ],
+    "taskDescription": "Compare completion rates across task types",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "9edcc22e-4886-46eb-89b3-608aa4265cc6",
+    "agentId": "cass",
+    "taskType": "research",
+    "sessionStart": "2026-08-09T07:19:00.000Z",
+    "sessionEnd": "2026-08-09T07:49:00.000Z",
+    "tokenUsageInput": 5700,
+    "tokenUsageOutput": 2280,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "d0191199-f5ed-4fc6-8883-56fe62c3afe6",
+    "agentId": "atlas",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-09T09:05:00.000Z",
+    "sessionEnd": "2026-08-09T09:19:00.000Z",
+    "tokenUsageInput": 4616,
+    "tokenUsageOutput": 1500,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "40aa70f4-a03b-4af2-9f30-7a5ca4c59abd",
+    "agentId": "cass",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-09T10:51:00.000Z",
+    "sessionEnd": "2026-08-09T11:24:00.000Z",
+    "tokenUsageInput": 3892,
+    "tokenUsageOutput": 1168,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "flaky_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Pull last week's session logs from the archive",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "86f236a4-d5d0-41ec-a835-80a6bbd50bb4",
+    "agentId": "lyra",
+    "taskType": "coding",
+    "sessionStart": "2026-08-09T14:27:00.000Z",
+    "sessionEnd": "2026-08-09T14:53:00.000Z",
+    "tokenUsageInput": 4683,
+    "tokenUsageOutput": 1561,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "lint"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Write the CSV export helper",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "3cb61b52-aa22-4f76-926d-e187260b848f",
+    "agentId": "cass",
+    "taskType": "research",
+    "sessionStart": "2026-08-09T17:42:00.000Z",
+    "sessionEnd": "2026-08-09T18:10:00.000Z",
+    "tokenUsageInput": 6867,
+    "tokenUsageOutput": 2747,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "affcdba7-c919-42c4-8ba8-6969370fc280",
+    "agentId": "nova",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-09T18:22:00.000Z",
+    "sessionEnd": "2026-08-09T18:26:00.000Z",
+    "tokenUsageInput": 2792,
+    "tokenUsageOutput": 931,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Review token spend per session",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "2ed5fdaa-014b-40ed-82c4-c6cb75252c16",
+    "agentId": "atlas",
+    "taskType": "research",
+    "sessionStart": "2026-08-10T12:37:00.000Z",
+    "sessionEnd": "2026-08-10T13:11:00.000Z",
+    "tokenUsageInput": 3631,
+    "tokenUsageOutput": 1452,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [
+      "web_search"
+    ],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "c1aa33ec-c47e-48a7-b0e1-d14c2c870d63",
+    "agentId": "nova",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-10T13:20:00.000Z",
+    "sessionEnd": "2026-08-10T13:49:00.000Z",
+    "tokenUsageInput": 3536,
+    "tokenUsageOutput": 1061,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "api_call",
+      "flaky_api"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract tool call metadata from raw traces",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "65f4c53b-98f4-461a-8094-ca9dc6dcf0a3",
+    "agentId": "nova",
+    "taskType": "research",
+    "sessionStart": "2026-08-10T13:58:00.000Z",
+    "sessionEnd": "2026-08-10T14:26:00.000Z",
+    "tokenUsageInput": 4696,
+    "tokenUsageOutput": 1879,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Research alternatives to the current vector store",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "1de04521-8308-4eea-92ea-87d491c01423",
+    "agentId": "vega",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-10T14:56:00.000Z",
+    "sessionEnd": "2026-08-10T15:27:00.000Z",
+    "tokenUsageInput": 3143,
+    "tokenUsageOutput": 1022,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "shell_exec",
+      "lint",
+      "deploy_script"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Deploy the reflect endpoint to staging",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "0d5c66a9-14a3-416b-b735-514414381cb2",
+    "agentId": "atlas",
+    "taskType": "coding",
+    "sessionStart": "2026-08-10T15:22:00.000Z",
+    "sessionEnd": "2026-08-10T15:51:00.000Z",
+    "tokenUsageInput": 6553,
+    "tokenUsageOutput": 2184,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Implement pagination for the entries endpoint",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "f28a707d-7743-4729-aeb7-270d830a0d47",
+    "agentId": "juno",
+    "taskType": "research",
+    "sessionStart": "2026-08-10T15:38:00.000Z",
+    "sessionEnd": "2026-08-10T16:13:00.000Z",
+    "tokenUsageInput": 3746,
+    "tokenUsageOutput": 1498,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "vector_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "37b361aa-e19a-4042-8c08-f574bcc8c2b6",
+    "agentId": "atlas",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-10T17:58:00.000Z",
+    "sessionEnd": "2026-08-10T18:05:00.000Z",
+    "tokenUsageInput": 5462,
+    "tokenUsageOutput": 1639,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Pull last week's session logs from the archive",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "b0f8b9b2-364c-4064-86a1-9f88bcc14372",
+    "agentId": "atlas",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-10T18:00:00.000Z",
+    "sessionEnd": "2026-08-10T18:07:00.000Z",
+    "tokenUsageInput": 4281,
+    "tokenUsageOutput": 1541,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate intermittent 500s on /api/diary/entry",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "79c952f4-e2b5-456d-925d-4e473e492742",
+    "agentId": "cass",
+    "taskType": "coding",
+    "sessionStart": "2026-08-11T07:07:00.000Z",
+    "sessionEnd": "2026-08-11T07:20:00.000Z",
+    "tokenUsageInput": 7427,
+    "tokenUsageOutput": 2476,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "write_file",
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Implement pagination for the entries endpoint",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "ff9f62a9-3ab4-430f-a980-76567cfb8118",
+    "agentId": "nova",
+    "taskType": "research",
+    "sessionStart": "2026-08-11T12:20:00.000Z",
+    "sessionEnd": "2026-08-11T12:24:00.000Z",
+    "tokenUsageInput": 7554,
+    "tokenUsageOutput": 3022,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "237d3f19-c800-4f8a-bb4f-f17147a5ce70",
+    "agentId": "nova",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-11T14:28:00.000Z",
+    "sessionEnd": "2026-08-11T14:43:00.000Z",
+    "tokenUsageInput": 2580,
+    "tokenUsageOutput": 839,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [
+      "shell_exec"
+    ],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "88d3929b-ce76-40fb-a6b0-88ee4af7b849",
+    "agentId": "vega",
+    "taskType": "coding",
+    "sessionStart": "2026-08-11T16:04:00.000Z",
+    "sessionEnd": "2026-08-11T16:23:00.000Z",
+    "tokenUsageInput": 5885,
+    "tokenUsageOutput": 1962,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "read_file",
+      "execute_code",
+      "write_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Write the CSV export helper",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "1bd7e833-faa1-4d63-8888-978988ea3c8d",
+    "agentId": "vega",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-12T08:35:00.000Z",
+    "sessionEnd": "2026-08-12T08:56:00.000Z",
+    "tokenUsageInput": 2976,
+    "tokenUsageOutput": 967,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "df918325-cc13-472c-a182-5bc111c61601",
+    "agentId": "vega",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-12T08:49:00.000Z",
+    "sessionEnd": "2026-08-12T09:04:00.000Z",
+    "tokenUsageInput": 4760,
+    "tokenUsageOutput": 1547,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "dry_run_check",
+      "lint"
+    ],
+    "failedToolNames": [
+      "deploy_script"
+    ],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "0cc41dc0-e62d-421e-8065-e1d18d146459",
+    "agentId": "orion",
+    "taskType": "research",
+    "sessionStart": "2026-08-12T10:26:00.000Z",
+    "sessionEnd": "2026-08-12T10:31:00.000Z",
+    "tokenUsageInput": 6520,
+    "tokenUsageOutput": 2608,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "066c1856-89a3-40de-a68f-1ee2e217ebbc",
+    "agentId": "atlas",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-12T14:17:00.000Z",
+    "sessionEnd": "2026-08-12T14:39:00.000Z",
+    "tokenUsageInput": 3710,
+    "tokenUsageOutput": 1113,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "database_query",
+      "flaky_api"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "5fed5e53-6a38-4606-8f49-ef452d28a133",
+    "agentId": "orion",
+    "taskType": "research",
+    "sessionStart": "2026-08-12T16:13:00.000Z",
+    "sessionEnd": "2026-08-12T16:22:00.000Z",
+    "tokenUsageInput": 4161,
+    "tokenUsageOutput": 1664,
+    "toolCallsTotal": 1,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "af583e86-0f8d-45ee-b423-9b37a16b2837",
+    "agentId": "vega",
+    "taskType": "research",
+    "sessionStart": "2026-08-12T18:54:00.000Z",
+    "sessionEnd": "2026-08-12T19:01:00.000Z",
+    "tokenUsageInput": 3429,
+    "tokenUsageOutput": 1371,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "448b6ff5-12b9-4a08-825c-74f6e172e71c",
+    "agentId": "cass",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-12T20:02:00.000Z",
+    "sessionEnd": "2026-08-12T20:31:00.000Z",
+    "tokenUsageInput": 3890,
+    "tokenUsageOutput": 1401,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 2,
+    "uniqueToolsUsed": [
+      "execute_code",
+      "grep",
+      "run_tests"
+    ],
+    "failedToolNames": [
+      "execute_code"
+    ],
+    "taskDescription": "Trace why token counts double-count on retries",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "e1ae69b8-5ce5-42f8-98a6-11d98791cb40",
+    "agentId": "vega",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-12T21:22:00.000Z",
+    "sessionEnd": "2026-08-12T21:41:00.000Z",
+    "tokenUsageInput": 3822,
+    "tokenUsageOutput": 1274,
+    "toolCallsTotal": 1,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Summarize this week's workload distribution",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "a1e616c9-ee6a-4926-b221-aabfae92a1e7",
+    "agentId": "vega",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-12T21:36:00.000Z",
+    "sessionEnd": "2026-08-12T21:42:00.000Z",
+    "tokenUsageInput": 5090,
+    "tokenUsageOutput": 1527,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "api_call"
+    ],
+    "failedToolNames": [
+      "flaky_api"
+    ],
+    "taskDescription": "Extract tool call metadata from raw traces",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "eb73244b-b3c1-4d87-af3b-46ac5bc63cc5",
+    "agentId": "juno",
+    "taskType": "coding",
+    "sessionStart": "2026-08-13T07:26:00.000Z",
+    "sessionEnd": "2026-08-13T07:33:00.000Z",
+    "tokenUsageInput": 4410,
+    "tokenUsageOutput": 1470,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "read_file",
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Refactor the aggregator into pure functions",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "2b7f7de7-645b-457c-827c-e9a1e8789c83",
+    "agentId": "atlas",
+    "taskType": "coding",
+    "sessionStart": "2026-08-13T09:08:00.000Z",
+    "sessionEnd": "2026-08-13T09:32:00.000Z",
+    "tokenUsageInput": 4625,
+    "tokenUsageOutput": 1542,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "lint",
+      "read_file",
+      "write_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Add retry logic to the tool executor",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "b8eebabf-4841-4463-ae21-1de5400f720d",
+    "agentId": "lyra",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-13T09:24:00.000Z",
+    "sessionEnd": "2026-08-13T09:48:00.000Z",
+    "tokenUsageInput": 4938,
+    "tokenUsageOutput": 1778,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 3,
+    "uniqueToolsUsed": [
+      "read_file",
+      "grep"
+    ],
+    "failedToolNames": [
+      "grep"
+    ],
+    "taskDescription": "Fix flaky test in aggregator.test.ts",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "478a3b6b-8f1f-4d6a-b29c-928ff75f1d14",
+    "agentId": "nova",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-13T15:13:00.000Z",
+    "sessionEnd": "2026-08-13T15:44:00.000Z",
+    "tokenUsageInput": 3641,
+    "tokenUsageOutput": 1183,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [
+      "deploy_script"
+    ],
+    "taskDescription": "Deploy the reflect endpoint to staging",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "5ce98df4-90c2-47e7-bb34-ea6b73a45a1e",
+    "agentId": "lyra",
+    "taskType": "research",
+    "sessionStart": "2026-08-13T17:31:00.000Z",
+    "sessionEnd": "2026-08-13T17:39:00.000Z",
+    "tokenUsageInput": 7186,
+    "tokenUsageOutput": 2874,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "59454270-0330-4ab5-9759-f3cf9ba73393",
+    "agentId": "nova",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-13T17:45:00.000Z",
+    "sessionEnd": "2026-08-13T18:00:00.000Z",
+    "tokenUsageInput": 4786,
+    "tokenUsageOutput": 1555,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [
+      "deploy_script"
+    ],
+    "taskDescription": "Promote the Aura MCP config to prod",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "b1c2d421-b9b8-4562-afc5-86d63b17be15",
+    "agentId": "nova",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-13T18:15:00.000Z",
+    "sessionEnd": "2026-08-13T18:37:00.000Z",
+    "tokenUsageInput": 5403,
+    "tokenUsageOutput": 1621,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "database_query",
+      "api_call",
+      "cached_api"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "7d8baf0d-1503-48b1-a4d7-ccac4cd7e83d",
+    "agentId": "orion",
+    "taskType": "research",
+    "sessionStart": "2026-08-13T18:26:00.000Z",
+    "sessionEnd": "2026-08-13T18:45:00.000Z",
+    "tokenUsageInput": 4768,
+    "tokenUsageOutput": 1907,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "362f3451-6507-4011-9889-87a1e5b856fe",
+    "agentId": "atlas",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-13T19:51:00.000Z",
+    "sessionEnd": "2026-08-13T19:57:00.000Z",
+    "tokenUsageInput": 4020,
+    "tokenUsageOutput": 1206,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Pull last week's session logs from the archive",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "0b6c2998-204a-4889-8a89-395d3c326f03",
+    "agentId": "vega",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-14T12:05:00.000Z",
+    "sessionEnd": "2026-08-14T12:36:00.000Z",
+    "tokenUsageInput": 5529,
+    "tokenUsageOutput": 1797,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "dry_run_check",
+      "deploy_script",
+      "lint"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "f014743e-4cc7-4f7a-9622-2d9d84ccfbfe",
+    "agentId": "lyra",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-14T13:46:00.000Z",
+    "sessionEnd": "2026-08-14T14:02:00.000Z",
+    "tokenUsageInput": 5524,
+    "tokenUsageOutput": 1795,
+    "toolCallsTotal": 8,
+    "toolCallsSucceeded": 8,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Deploy the reflect endpoint to staging",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "38f75972-9931-4844-b1ee-60135f0004ad",
+    "agentId": "vega",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-14T14:37:00.000Z",
+    "sessionEnd": "2026-08-14T14:59:00.000Z",
+    "tokenUsageInput": 6152,
+    "tokenUsageOutput": 2215,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file",
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Chase down a race condition in the upsert path",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "cc44cba7-7dde-4a42-a4c7-8fef6c6e0f08",
+    "agentId": "orion",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-14T14:42:00.000Z",
+    "sessionEnd": "2026-08-14T14:48:00.000Z",
+    "tokenUsageInput": 6297,
+    "tokenUsageOutput": 2267,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Chase down a race condition in the upsert path",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "c4d26971-d536-4eaa-afb0-2431d59dc00e",
+    "agentId": "juno",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-14T17:18:00.000Z",
+    "sessionEnd": "2026-08-14T17:31:00.000Z",
+    "tokenUsageInput": 3572,
+    "tokenUsageOutput": 1072,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 2,
+    "uniqueToolsUsed": [
+      "database_query",
+      "cached_api"
+    ],
+    "failedToolNames": [
+      "database_query"
+    ],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "3b382688-6334-402b-9583-0a9271bd3712",
+    "agentId": "nova",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-14T17:37:00.000Z",
+    "sessionEnd": "2026-08-14T17:59:00.000Z",
+    "tokenUsageInput": 5670,
+    "tokenUsageOutput": 1890,
+    "toolCallsTotal": 1,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Review token spend per session",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "f5009007-1092-4106-961d-1d592dd6d32a",
+    "agentId": "cass",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-15T08:06:00.000Z",
+    "sessionEnd": "2026-08-15T08:36:00.000Z",
+    "tokenUsageInput": 2404,
+    "tokenUsageOutput": 781,
+    "toolCallsTotal": 1,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "e453794a-1aa4-4b57-9dd4-835ad693ce0b",
+    "agentId": "juno",
+    "taskType": "research",
+    "sessionStart": "2026-08-15T08:52:00.000Z",
+    "sessionEnd": "2026-08-15T09:22:00.000Z",
+    "tokenUsageInput": 5811,
+    "tokenUsageOutput": 2325,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "109619b4-ef8a-4198-b7c5-4cc681e39737",
+    "agentId": "nova",
+    "taskType": "research",
+    "sessionStart": "2026-08-15T09:06:00.000Z",
+    "sessionEnd": "2026-08-15T09:31:00.000Z",
+    "tokenUsageInput": 3825,
+    "tokenUsageOutput": 1530,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "648bbbf4-3885-4b33-a324-d37207640aa1",
+    "agentId": "cass",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-15T10:39:00.000Z",
+    "sessionEnd": "2026-08-15T10:54:00.000Z",
+    "tokenUsageInput": 3460,
+    "tokenUsageOutput": 1038,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 2,
+    "uniqueToolsUsed": [
+      "database_query",
+      "cached_api"
+    ],
+    "failedToolNames": [
+      "cached_api"
+    ],
+    "taskDescription": "Extract tool call metadata from raw traces",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "b5b7b523-9954-4f07-b2a4-1756689c165c",
+    "agentId": "orion",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-15T11:20:00.000Z",
+    "sessionEnd": "2026-08-15T11:31:00.000Z",
+    "tokenUsageInput": 5529,
+    "tokenUsageOutput": 1843,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "database_query",
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Compare completion rates across task types",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "3ed8d840-36ea-425a-8480-32eb5f3084b6",
+    "agentId": "atlas",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-15T11:34:00.000Z",
+    "sessionEnd": "2026-08-15T12:01:00.000Z",
+    "tokenUsageInput": 4367,
+    "tokenUsageOutput": 1419,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Promote the Aura MCP config to prod",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "87f2ca92-e0c9-40e6-b9bb-702fb7936cd8",
+    "agentId": "vega",
+    "taskType": "research",
+    "sessionStart": "2026-08-15T13:19:00.000Z",
+    "sessionEnd": "2026-08-15T13:33:00.000Z",
+    "tokenUsageInput": 7665,
+    "tokenUsageOutput": 3066,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "summarize_doc",
+      "vector_search",
+      "web_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "10d189f1-4b21-41d8-a244-fe06909137b9",
+    "agentId": "lyra",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-15T15:48:00.000Z",
+    "sessionEnd": "2026-08-15T16:15:00.000Z",
+    "tokenUsageInput": 2772,
+    "tokenUsageOutput": 901,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "shell_exec"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "4a61a6fe-387c-467f-9c87-0a4d0d6527b1",
+    "agentId": "nova",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-15T16:39:00.000Z",
+    "sessionEnd": "2026-08-15T16:44:00.000Z",
+    "tokenUsageInput": 3300,
+    "tokenUsageOutput": 990,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "5e963792-54a4-49b1-acb0-e1ce51474834",
+    "agentId": "atlas",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-15T17:23:00.000Z",
+    "sessionEnd": "2026-08-15T17:49:00.000Z",
+    "tokenUsageInput": 3905,
+    "tokenUsageOutput": 1269,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Deploy the reflect endpoint to staging",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "516163c2-f55f-46c8-bdf3-95404cda18ee",
+    "agentId": "nova",
+    "taskType": "research",
+    "sessionStart": "2026-08-15T18:18:00.000Z",
+    "sessionEnd": "2026-08-15T18:25:00.000Z",
+    "tokenUsageInput": 6580,
+    "tokenUsageOutput": 2632,
+    "toolCallsTotal": 9,
+    "toolCallsSucceeded": 9,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "8e49de27-decd-4d2d-9404-444e1da47fde",
+    "agentId": "nova",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-15T19:39:00.000Z",
+    "sessionEnd": "2026-08-15T20:11:00.000Z",
+    "tokenUsageInput": 4036,
+    "tokenUsageOutput": 1345,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Identify which tools correlate with failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "eab7b8e9-ba4f-4133-a0dc-edfe0ff31f5b",
+    "agentId": "orion",
+    "taskType": "research",
+    "sessionStart": "2026-08-15T21:59:00.000Z",
+    "sessionEnd": "2026-08-15T22:23:00.000Z",
+    "tokenUsageInput": 5243,
+    "tokenUsageOutput": 2097,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Research alternatives to the current vector store",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "1ec49e9d-9364-415d-93ef-0950eff233be",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-16T08:17:00.000Z",
+    "sessionEnd": "2026-08-16T08:21:00.000Z",
+    "tokenUsageInput": 5551,
+    "tokenUsageOutput": 1998,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "run_tests"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Chase down a race condition in the upsert path",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "e9e0f67a-07e8-4837-9dd5-539bdf2f9027",
+    "agentId": "atlas",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-16T14:32:00.000Z",
+    "sessionEnd": "2026-08-16T15:02:00.000Z",
+    "tokenUsageInput": 4400,
+    "tokenUsageOutput": 1430,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "a6278200-570d-48df-b790-1e7fee9bc9f5",
+    "agentId": "vega",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-16T18:53:00.000Z",
+    "sessionEnd": "2026-08-16T19:16:00.000Z",
+    "tokenUsageInput": 3373,
+    "tokenUsageOutput": 1124,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Identify which tools correlate with failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "5f7dc6fe-e76c-4354-8f50-d08bdc95d963",
+    "agentId": "lyra",
+    "taskType": "research",
+    "sessionStart": "2026-08-16T20:41:00.000Z",
+    "sessionEnd": "2026-08-16T20:47:00.000Z",
+    "tokenUsageInput": 6121,
+    "tokenUsageOutput": 2449,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "6ead2842-c1bf-40f8-8042-3bd99c710f3c",
+    "agentId": "nova",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-17T08:05:00.000Z",
+    "sessionEnd": "2026-08-17T08:23:00.000Z",
+    "tokenUsageInput": 5184,
+    "tokenUsageOutput": 1728,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Identify which tools correlate with failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "c5f421f6-9341-4fb3-a66d-586a0c33992b",
+    "agentId": "vega",
+    "taskType": "coding",
+    "sessionStart": "2026-08-17T08:35:00.000Z",
+    "sessionEnd": "2026-08-17T09:02:00.000Z",
+    "tokenUsageInput": 7898,
+    "tokenUsageOutput": 2633,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "read_file",
+      "write_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Refactor the aggregator into pure functions",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "0ea524f7-8ea4-4e34-bfa9-d0854ac79ca2",
+    "agentId": "nova",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-17T09:42:00.000Z",
+    "sessionEnd": "2026-08-17T09:50:00.000Z",
+    "tokenUsageInput": 4409,
+    "tokenUsageOutput": 1323,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "1893ea30-a912-42a9-ad68-017f53469528",
+    "agentId": "lyra",
+    "taskType": "research",
+    "sessionStart": "2026-08-17T10:26:00.000Z",
+    "sessionEnd": "2026-08-17T10:32:00.000Z",
+    "tokenUsageInput": 6662,
+    "tokenUsageOutput": 2665,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "e8207c86-b0ea-44c0-878f-bc423b5e6aed",
+    "agentId": "vega",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-17T11:57:00.000Z",
+    "sessionEnd": "2026-08-17T12:14:00.000Z",
+    "tokenUsageInput": 4387,
+    "tokenUsageOutput": 1462,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code",
+      "summarize_doc",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Review token spend per session",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "175b1cc6-d137-4043-af8a-3fe0da1bb036",
+    "agentId": "juno",
+    "taskType": "research",
+    "sessionStart": "2026-08-17T13:36:00.000Z",
+    "sessionEnd": "2026-08-17T13:48:00.000Z",
+    "tokenUsageInput": 7297,
+    "tokenUsageOutput": 2919,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "c3440f2f-18fa-46ab-97a0-edbb110eab63",
+    "agentId": "nova",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-17T17:15:00.000Z",
+    "sessionEnd": "2026-08-17T17:34:00.000Z",
+    "tokenUsageInput": 6079,
+    "tokenUsageOutput": 2026,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Review token spend per session",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "bc61320b-9909-4c74-aa8d-8bcacea1b8b1",
+    "agentId": "atlas",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-17T19:16:00.000Z",
+    "sessionEnd": "2026-08-17T19:32:00.000Z",
+    "tokenUsageInput": 3343,
+    "tokenUsageOutput": 1003,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "af73ad7f-3f0e-47b0-8b12-9c66ec28c155",
+    "agentId": "juno",
+    "taskType": "coding",
+    "sessionStart": "2026-08-17T21:55:00.000Z",
+    "sessionEnd": "2026-08-17T22:07:00.000Z",
+    "tokenUsageInput": 5273,
+    "tokenUsageOutput": 1758,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "write_file",
+      "read_file",
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Refactor the aggregator into pure functions",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "9b6fac92-41ea-4b37-bb18-b719837619fb",
+    "agentId": "orion",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-18T12:27:00.000Z",
+    "sessionEnd": "2026-08-18T12:42:00.000Z",
+    "tokenUsageInput": 3997,
+    "tokenUsageOutput": 1199,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "database_query",
+      "flaky_api"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Pull last week's session logs from the archive",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "27f84f31-03b3-4490-b01c-f91d4c391053",
+    "agentId": "juno",
+    "taskType": "research",
+    "sessionStart": "2026-08-18T15:57:00.000Z",
+    "sessionEnd": "2026-08-18T16:24:00.000Z",
+    "tokenUsageInput": 4898,
+    "tokenUsageOutput": 1959,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "8744fa9f-cc8c-4dee-a553-ae58afa874ae",
+    "agentId": "vega",
+    "taskType": "coding",
+    "sessionStart": "2026-08-18T19:16:00.000Z",
+    "sessionEnd": "2026-08-18T19:51:00.000Z",
+    "tokenUsageInput": 4673,
+    "tokenUsageOutput": 1558,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "write_file",
+      "lint",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Refactor the aggregator into pure functions",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "e93ec77a-77bb-40de-8bcd-53fc17c2691b",
+    "agentId": "lyra",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-18T19:45:00.000Z",
+    "sessionEnd": "2026-08-18T20:12:00.000Z",
+    "tokenUsageInput": 5417,
+    "tokenUsageOutput": 1806,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code",
+      "database_query",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Review token spend per session",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "1d886ced-0d70-483b-9668-d332a5d03c26",
+    "agentId": "cass",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-18T19:53:00.000Z",
+    "sessionEnd": "2026-08-18T20:15:00.000Z",
+    "tokenUsageInput": 4813,
+    "tokenUsageOutput": 1604,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "summarize_doc",
+      "execute_code",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Summarize this week's workload distribution",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "ea00832a-0d7e-4c32-b274-c332f4fd9f30",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-19T08:34:00.000Z",
+    "sessionEnd": "2026-08-19T09:06:00.000Z",
+    "tokenUsageInput": 4930,
+    "tokenUsageOutput": 1775,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file",
+      "run_tests"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Trace why token counts double-count on retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "9b038017-b391-432e-838b-139aa3a687a7",
+    "agentId": "cass",
+    "taskType": "research",
+    "sessionStart": "2026-08-19T19:44:00.000Z",
+    "sessionEnd": "2026-08-19T19:54:00.000Z",
+    "tokenUsageInput": 5183,
+    "tokenUsageOutput": 2073,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "d24ac9aa-e3d1-419c-9b41-413acd5c800d",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-19T19:51:00.000Z",
+    "sessionEnd": "2026-08-19T19:56:00.000Z",
+    "tokenUsageInput": 4367,
+    "tokenUsageOutput": 1572,
+    "toolCallsTotal": 9,
+    "toolCallsSucceeded": 9,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file",
+      "run_tests"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Chase down a race condition in the upsert path",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "23fd018e-3b7d-4db0-b43b-af200fb0001a",
+    "agentId": "lyra",
+    "taskType": "research",
+    "sessionStart": "2026-08-19T19:51:00.000Z",
+    "sessionEnd": "2026-08-19T20:09:00.000Z",
+    "tokenUsageInput": 5047,
+    "tokenUsageOutput": 2019,
+    "toolCallsTotal": 1,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Research alternatives to the current vector store",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "187bcb64-f1a7-4b86-b73b-d029e1a4f4db",
+    "agentId": "cass",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-19T20:27:00.000Z",
+    "sessionEnd": "2026-08-19T20:54:00.000Z",
+    "tokenUsageInput": 4706,
+    "tokenUsageOutput": 1694,
+    "toolCallsTotal": 8,
+    "toolCallsSucceeded": 8,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code",
+      "grep",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate intermittent 500s on /api/diary/entry",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "33610645-cbab-4689-a7e5-26dbafb2533e",
+    "agentId": "lyra",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-19T20:30:00.000Z",
+    "sessionEnd": "2026-08-19T20:35:00.000Z",
+    "tokenUsageInput": 5108,
+    "tokenUsageOutput": 1703,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "summarize_doc",
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Compare completion rates across task types",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "e0d8db51-e28c-4672-859a-c9748c9ad263",
+    "agentId": "vega",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-19T21:49:00.000Z",
+    "sessionEnd": "2026-08-19T22:18:00.000Z",
+    "tokenUsageInput": 2749,
+    "tokenUsageOutput": 825,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 2,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "api_call"
+    ],
+    "failedToolNames": [
+      "flaky_api"
+    ],
+    "taskDescription": "Extract tool call metadata from raw traces",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "8eeb4e61-6e23-4c61-8ba1-1c795d81a629",
+    "agentId": "cass",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-20T07:39:00.000Z",
+    "sessionEnd": "2026-08-20T08:01:00.000Z",
+    "tokenUsageInput": 3874,
+    "tokenUsageOutput": 1162,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "cached_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "87b76e3c-cdd3-442b-b7ef-2f85ad1f36d5",
+    "agentId": "atlas",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-20T08:31:00.000Z",
+    "sessionEnd": "2026-08-20T09:03:00.000Z",
+    "tokenUsageInput": 3734,
+    "tokenUsageOutput": 1245,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Compare completion rates across task types",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "6d970e84-081a-4de9-af18-30f71926ade8",
+    "agentId": "lyra",
+    "taskType": "research",
+    "sessionStart": "2026-08-20T11:02:00.000Z",
+    "sessionEnd": "2026-08-20T11:24:00.000Z",
+    "tokenUsageInput": 6515,
+    "tokenUsageOutput": 2606,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Research alternatives to the current vector store",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "6bed5b08-ffe7-4edb-b4f4-47f98e650555",
+    "agentId": "nova",
+    "taskType": "research",
+    "sessionStart": "2026-08-20T11:32:00.000Z",
+    "sessionEnd": "2026-08-20T11:41:00.000Z",
+    "tokenUsageInput": 3530,
+    "tokenUsageOutput": 1412,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "c7ed3ee2-e5d8-46b5-b278-b4a25e7a825f",
+    "agentId": "vega",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-20T13:02:00.000Z",
+    "sessionEnd": "2026-08-20T13:27:00.000Z",
+    "tokenUsageInput": 2794,
+    "tokenUsageOutput": 838,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "222ab19d-6ab0-4383-9b0f-9c361a1fea63",
+    "agentId": "nova",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-20T16:22:00.000Z",
+    "sessionEnd": "2026-08-20T16:27:00.000Z",
+    "tokenUsageInput": 3742,
+    "tokenUsageOutput": 1123,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "d75241b5-3e6a-4254-8e9a-f95a6d2e4003",
+    "agentId": "lyra",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-20T16:38:00.000Z",
+    "sessionEnd": "2026-08-20T16:49:00.000Z",
+    "tokenUsageInput": 4454,
+    "tokenUsageOutput": 1485,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Review token spend per session",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "9ecd2b1b-5b19-4680-b64f-dbd5643b35aa",
+    "agentId": "juno",
+    "taskType": "research",
+    "sessionStart": "2026-08-20T18:20:00.000Z",
+    "sessionEnd": "2026-08-20T18:48:00.000Z",
+    "tokenUsageInput": 7249,
+    "tokenUsageOutput": 2900,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "1af91c36-c969-4803-ada7-fbe4f95046ab",
+    "agentId": "vega",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-20T21:42:00.000Z",
+    "sessionEnd": "2026-08-20T21:55:00.000Z",
+    "tokenUsageInput": 5820,
+    "tokenUsageOutput": 1940,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Identify which tools correlate with failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "b6d33ba2-20dd-42c6-ac19-288a28c9813d",
+    "agentId": "lyra",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-21T07:07:00.000Z",
+    "sessionEnd": "2026-08-21T07:17:00.000Z",
+    "tokenUsageInput": 4931,
+    "tokenUsageOutput": 1479,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract tool call metadata from raw traces",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "57cbf453-efac-4416-85a7-6aa4a15e6771",
+    "agentId": "atlas",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-21T08:09:00.000Z",
+    "sessionEnd": "2026-08-21T08:19:00.000Z",
+    "tokenUsageInput": 5655,
+    "tokenUsageOutput": 1885,
+    "toolCallsTotal": 1,
+    "toolCallsSucceeded": 0,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "execute_code"
+    ],
+    "failedToolNames": [
+      "execute_code"
+    ],
+    "taskDescription": "Identify which tools correlate with failures",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "7e314ff9-130e-4e09-8bdb-af9e2d519bee",
+    "agentId": "nova",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-21T08:17:00.000Z",
+    "sessionEnd": "2026-08-21T08:44:00.000Z",
+    "tokenUsageInput": 4130,
+    "tokenUsageOutput": 1377,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "api_call"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Compare completion rates across task types",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "44f54d4f-4765-43d0-aade-e45c228a2480",
+    "agentId": "cass",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-21T08:59:00.000Z",
+    "sessionEnd": "2026-08-21T09:05:00.000Z",
+    "tokenUsageInput": 4311,
+    "tokenUsageOutput": 1437,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "execute_code",
+      "summarize_doc",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Summarize this week's workload distribution",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "511ae25c-60e9-4c7a-bc79-a177608072b2",
+    "agentId": "juno",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-21T09:16:00.000Z",
+    "sessionEnd": "2026-08-21T09:31:00.000Z",
+    "tokenUsageInput": 3410,
+    "tokenUsageOutput": 1108,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 0,
+    "toolCallsFailed": 2,
+    "uniqueToolsUsed": [
+      "dry_run_check"
+    ],
+    "failedToolNames": [
+      "dry_run_check"
+    ],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "0f445cd9-c148-4fba-8f1c-1c5a5a15db88",
+    "agentId": "nova",
+    "taskType": "coding",
+    "sessionStart": "2026-08-21T10:03:00.000Z",
+    "sessionEnd": "2026-08-21T10:13:00.000Z",
+    "tokenUsageInput": 6586,
+    "tokenUsageOutput": 2195,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Write the CSV export helper",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "f7cf06a7-b48a-4a18-b1e9-2bed37d9841d",
+    "agentId": "nova",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-21T12:21:00.000Z",
+    "sessionEnd": "2026-08-21T12:43:00.000Z",
+    "tokenUsageInput": 5330,
+    "tokenUsageOutput": 1599,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 1,
+    "uniqueToolsUsed": [
+      "flaky_api",
+      "database_query"
+    ],
+    "failedToolNames": [
+      "flaky_api"
+    ],
+    "taskDescription": "Backfill agentName for legacy rows",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "9d8118bc-1708-4bb4-a40d-98096c2a1030",
+    "agentId": "cass",
+    "taskType": "research",
+    "sessionStart": "2026-08-21T13:48:00.000Z",
+    "sessionEnd": "2026-08-21T14:03:00.000Z",
+    "tokenUsageInput": 3363,
+    "tokenUsageOutput": 1345,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "b03bf591-ad20-40c3-9a26-9f5691e477b1",
+    "agentId": "atlas",
+    "taskType": "research",
+    "sessionStart": "2026-08-21T15:55:00.000Z",
+    "sessionEnd": "2026-08-21T16:01:00.000Z",
+    "tokenUsageInput": 4800,
+    "tokenUsageOutput": 1920,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "0d9e9506-ea35-4d8c-a3ae-996a5194af0d",
+    "agentId": "atlas",
+    "taskType": "research",
+    "sessionStart": "2026-08-21T17:24:00.000Z",
+    "sessionEnd": "2026-08-21T17:41:00.000Z",
+    "tokenUsageInput": 6649,
+    "tokenUsageOutput": 2660,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "summarize_doc",
+      "vector_search",
+      "web_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "5fb46635-dcdf-4cd2-a920-5aeadc42880f",
+    "agentId": "vega",
+    "taskType": "research",
+    "sessionStart": "2026-08-21T18:17:00.000Z",
+    "sessionEnd": "2026-08-21T18:40:00.000Z",
+    "tokenUsageInput": 4764,
+    "tokenUsageOutput": 1906,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 3,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Research alternatives to the current vector store",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "18e28376-da89-45bb-a512-9f23abaeb0c7",
+    "agentId": "cass",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-21T18:37:00.000Z",
+    "sessionEnd": "2026-08-21T19:04:00.000Z",
+    "tokenUsageInput": 5590,
+    "tokenUsageOutput": 1817,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "lint",
+      "shell_exec"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Promote the Aura MCP config to prod",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "8b5b7d59-84e5-4b61-b486-4457786e111e",
+    "agentId": "nova",
+    "taskType": "research",
+    "sessionStart": "2026-08-22T10:54:00.000Z",
+    "sessionEnd": "2026-08-22T11:01:00.000Z",
+    "tokenUsageInput": 4334,
+    "tokenUsageOutput": 1734,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "vector_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Research alternatives to the current vector store",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "a933625f-5f2f-4358-932d-cd3c3f2dd23b",
+    "agentId": "orion",
+    "taskType": "research",
+    "sessionStart": "2026-08-22T11:29:00.000Z",
+    "sessionEnd": "2026-08-22T12:01:00.000Z",
+    "tokenUsageInput": 6894,
+    "tokenUsageOutput": 2758,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "299bf58f-90f3-478e-9f8e-76f6a7974f6e",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-22T19:56:00.000Z",
+    "sessionEnd": "2026-08-22T20:19:00.000Z",
+    "tokenUsageInput": 3045,
+    "tokenUsageOutput": 1096,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file",
+      "run_tests"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Trace why token counts double-count on retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "3b600e2b-f87a-4ba5-a8c3-71bd7329bcdb",
+    "agentId": "juno",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-23T08:08:00.000Z",
+    "sessionEnd": "2026-08-23T08:28:00.000Z",
+    "tokenUsageInput": 5048,
+    "tokenUsageOutput": 1641,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "shell_exec",
+      "lint"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "c6dfeef3-f8db-49bc-8435-b6e5c0c595f5",
+    "agentId": "atlas",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-23T11:26:00.000Z",
+    "sessionEnd": "2026-08-23T11:36:00.000Z",
+    "tokenUsageInput": 5283,
+    "tokenUsageOutput": 1717,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "0d513356-d596-46a7-b8c2-17d185835261",
+    "agentId": "vega",
+    "taskType": "research",
+    "sessionStart": "2026-08-23T12:21:00.000Z",
+    "sessionEnd": "2026-08-23T12:41:00.000Z",
+    "tokenUsageInput": 3570,
+    "tokenUsageOutput": 1428,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "vector_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Research alternatives to the current vector store",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "066e249b-6de4-49f1-8a4a-166743245d39",
+    "agentId": "juno",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-23T12:42:00.000Z",
+    "sessionEnd": "2026-08-23T13:17:00.000Z",
+    "tokenUsageInput": 3623,
+    "tokenUsageOutput": 1178,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Roll out the new aggregator to production",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "bdbb89a8-778b-4534-86dd-55b3f11ef4ba",
+    "agentId": "lyra",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-23T14:38:00.000Z",
+    "sessionEnd": "2026-08-23T14:58:00.000Z",
+    "tokenUsageInput": 5320,
+    "tokenUsageOutput": 1596,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "cached_api",
+      "database_query"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Extract error payloads from failed runs",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "e10f7d85-b84a-4bff-9907-9b96ad8a4437",
+    "agentId": "cass",
+    "taskType": "coding",
+    "sessionStart": "2026-08-23T16:08:00.000Z",
+    "sessionEnd": "2026-08-23T16:28:00.000Z",
+    "tokenUsageInput": 5842,
+    "tokenUsageOutput": 1947,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 4,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "lint",
+      "read_file"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Implement pagination for the entries endpoint",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "4395b306-d2aa-4916-acba-1cefc7d90bb6",
+    "agentId": "cass",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-23T16:15:00.000Z",
+    "sessionEnd": "2026-08-23T16:50:00.000Z",
+    "tokenUsageInput": 5099,
+    "tokenUsageOutput": 1657,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "lint",
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Promote the Aura MCP config to prod",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "dde908a9-f767-4385-8661-6299330641a0",
+    "agentId": "juno",
+    "taskType": "research",
+    "sessionStart": "2026-08-23T16:39:00.000Z",
+    "sessionEnd": "2026-08-23T16:56:00.000Z",
+    "tokenUsageInput": 5297,
+    "tokenUsageOutput": 2119,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Investigate Neo4j Aura pricing tiers",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "65048911-e6dc-4651-b52b-6732f5799144",
+    "agentId": "lyra",
+    "taskType": "research",
+    "sessionStart": "2026-08-23T19:54:00.000Z",
+    "sessionEnd": "2026-08-23T20:29:00.000Z",
+    "tokenUsageInput": 5449,
+    "tokenUsageOutput": 2179,
+    "toolCallsTotal": 2,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "b52d98d1-5390-4a7c-8a2b-e4c364ba2306",
+    "agentId": "lyra",
+    "taskType": "data-extraction",
+    "sessionStart": "2026-08-23T20:00:00.000Z",
+    "sessionEnd": "2026-08-23T20:13:00.000Z",
+    "tokenUsageInput": 2977,
+    "tokenUsageOutput": 893,
+    "toolCallsTotal": 3,
+    "toolCallsSucceeded": 0,
+    "toolCallsFailed": 3,
+    "uniqueToolsUsed": [
+      "api_call"
+    ],
+    "failedToolNames": [
+      "api_call"
+    ],
+    "taskDescription": "Pull last week's session logs from the archive",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "5b709df7-70a7-4680-90b0-2ff5dac2855a",
+    "agentId": "cass",
+    "taskType": "research",
+    "sessionStart": "2026-08-23T21:18:00.000Z",
+    "sessionEnd": "2026-08-23T21:27:00.000Z",
+    "tokenUsageInput": 7166,
+    "tokenUsageOutput": 2866,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 7,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "web_search",
+      "summarize_doc",
+      "vector_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Look up best practices for x402 payment retries",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "bb848585-6d59-4f04-9fab-721182d816a4",
+    "agentId": "atlas",
+    "taskType": "research",
+    "sessionStart": "2026-08-24T07:54:00.000Z",
+    "sessionEnd": "2026-08-24T08:16:00.000Z",
+    "tokenUsageInput": 6453,
+    "tokenUsageOutput": 2581,
+    "toolCallsTotal": 5,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "vector_search",
+      "web_search",
+      "summarize_doc"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Survey how other agents log tool failures",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "e5c4b537-c396-42f6-a723-571e133168fe",
+    "agentId": "atlas",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-24T10:29:00.000Z",
+    "sessionEnd": "2026-08-24T10:40:00.000Z",
+    "tokenUsageInput": 2897,
+    "tokenUsageOutput": 941,
+    "toolCallsTotal": 1,
+    "toolCallsSucceeded": 1,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "dry_run_check"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Push schema migration 003",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "f0b6b96c-6aa8-43ef-8af9-cc5592078347",
+    "agentId": "nova",
+    "taskType": "debugging",
+    "sessionStart": "2026-08-24T10:48:00.000Z",
+    "sessionEnd": "2026-08-24T11:10:00.000Z",
+    "tokenUsageInput": 5095,
+    "tokenUsageOutput": 1834,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "grep",
+      "read_file",
+      "run_tests"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Fix flaky test in aggregator.test.ts",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "45d689fd-aa69-416b-ad0e-35c25d6fa0ba",
+    "agentId": "lyra",
+    "taskType": "research",
+    "sessionStart": "2026-08-24T11:01:00.000Z",
+    "sessionEnd": "2026-08-24T11:21:00.000Z",
+    "tokenUsageInput": 6272,
+    "tokenUsageOutput": 2509,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "summarize_doc",
+      "web_search"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Research alternatives to the current vector store",
+    "taskCompleted": true
+  },
+  {
+    "sessionId": "e8530439-86bc-4d65-9684-7a9ebd38d39e",
+    "agentId": "juno",
+    "taskType": "deployment",
+    "sessionStart": "2026-08-24T12:31:00.000Z",
+    "sessionEnd": "2026-08-24T12:46:00.000Z",
+    "tokenUsageInput": 4123,
+    "tokenUsageOutput": 1340,
+    "toolCallsTotal": 4,
+    "toolCallsSucceeded": 2,
+    "toolCallsFailed": 2,
+    "uniqueToolsUsed": [
+      "deploy_script",
+      "shell_exec"
+    ],
+    "failedToolNames": [
+      "deploy_script"
+    ],
+    "taskDescription": "Promote the Aura MCP config to prod",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "1e2c9cb3-b3b6-45c7-a4d4-60bc3157a2ae",
+    "agentId": "nova",
+    "taskType": "analysis",
+    "sessionStart": "2026-08-24T19:33:00.000Z",
+    "sessionEnd": "2026-08-24T19:59:00.000Z",
+    "tokenUsageInput": 5401,
+    "tokenUsageOutput": 1800,
+    "toolCallsTotal": 7,
+    "toolCallsSucceeded": 5,
+    "toolCallsFailed": 2,
+    "uniqueToolsUsed": [
+      "database_query",
+      "summarize_doc",
+      "execute_code"
+    ],
+    "failedToolNames": [
+      "summarize_doc"
+    ],
+    "taskDescription": "Compare completion rates across task types",
+    "taskCompleted": false
+  },
+  {
+    "sessionId": "8e66e81b-78cf-4121-964e-f8a5b8bad7ea",
+    "agentId": "juno",
+    "taskType": "coding",
+    "sessionStart": "2026-08-24T19:55:00.000Z",
+    "sessionEnd": "2026-08-24T20:17:00.000Z",
+    "tokenUsageInput": 4201,
+    "tokenUsageOutput": 1400,
+    "toolCallsTotal": 6,
+    "toolCallsSucceeded": 6,
+    "toolCallsFailed": 0,
+    "uniqueToolsUsed": [
+      "read_file",
+      "execute_code"
+    ],
+    "failedToolNames": [],
+    "taskDescription": "Write the CSV export helper",
+    "taskCompleted": true
+  }
+]
